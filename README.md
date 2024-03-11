@@ -24,6 +24,8 @@ Discover
 * To be updated
 
 
+### KnockoutJS Extensions / github repo
+* https://github.com/alexcodito/KnockoutContextHover
 
 
 
