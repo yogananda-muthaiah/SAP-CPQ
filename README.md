@@ -26,6 +26,7 @@ Discover
 
 ### KnockoutJS Extensions / github repo
 * https://github.com/alexcodito/KnockoutContextHover
+* https://chromewebstore.google.com/detail/knockout-context-hover/lcpnkclcbpmhekkjnkomhoecoiobbejf
 
 
 
