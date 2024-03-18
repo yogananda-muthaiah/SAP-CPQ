@@ -1,5 +1,5 @@
 # SAP-CPQ
-Discover
+
 
 
 ### Help documentation
@@ -16,6 +16,12 @@ Discover
 
 ### Ask any questions or doubts
 * https://community.sap.com/t5/c-khhcw49343/SAP+CPQ/pd-p/73555000100800001601
+
+### CPQ Roadmap Explorer
+* https://roadmaps.sap.com/board?PRODUCT=73555000100800001601&range=CURRENT-LAST#Q2%202024
+
+### Customer Influence Portal Requests (Feature Requests)
+* 
 
 ### Learning
 * To be updated
