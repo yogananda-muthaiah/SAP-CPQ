@@ -8,3 +8,7 @@
 
 ### API Documentation
 * https://api.sap.com/package/SAPProductConfiguration/rest
+
+
+### BTP Alert Notification Services 
+* https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/sap-variant-configuration-and-pricing-events
