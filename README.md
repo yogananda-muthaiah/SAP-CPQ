@@ -21,7 +21,11 @@
 * https://roadmaps.sap.com/board?PRODUCT=73555000100800001601&range=CURRENT-LAST#Q2%202024
 
 ### Customer Influence Portal Requests (Feature Requests)
-* 
+*
+
+### SAP Quote to Cash
+* [Webinars](https://gateway.on24.com/wcc/eh/4322431/group/127479/sap-quote-to-cash-solutions)
+* [CPQ Releases & Others](https://gateway.on24.com/wcc/eh/4322431/category/127475/configure-price-and-quote)
 
 ### Learning
 * To be updated
