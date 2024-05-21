@@ -4,5 +4,5 @@
 *
 *
 *
-*
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/new-email-settings-guide-for-sap-cpq-version-2405/ba-p/13706400
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-2405-release-overview/ba-p/13646624
