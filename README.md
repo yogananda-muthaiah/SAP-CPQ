@@ -28,7 +28,7 @@
 * [CPQ Releases & Others](https://gateway.on24.com/wcc/eh/4322431/category/127475/configure-price-and-quote)
 
 ### Learning
-* To be updated
+* [Learning Journey](https://learning.sap.com/learning-journeys/implementing-sap-cpq)
 
 ### Certification
 * To be updated
