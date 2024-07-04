@@ -1,4 +1,4 @@
-# SAP-CPQ
+# SAP CPQ
 
 
 
