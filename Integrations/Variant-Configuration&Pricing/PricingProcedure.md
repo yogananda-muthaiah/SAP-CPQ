@@ -8,3 +8,7 @@
 
 ### KB Notes
 * https://me.sap.com/notes/2894167/E
+
+
+## Pricing Procedure Video
+* https://www.youtube.com/watch?v=ATRubKbzh7U
