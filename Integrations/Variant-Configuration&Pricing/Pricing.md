@@ -13,3 +13,8 @@
 
 ## Pricing Procedure Video
 * https://www.youtube.com/watch?v=ATRubKbzh7U
+
+
+### Pricing Help documentation
+
+* [Product Hiearachy & Customer Hiearachy](https://help.sap.com/docs/variant-configuration-and-pricing/development-guide-for-sap-variant-configuration-and-pricing/product-hierarchy-and-customer-hierarchy?locale=en-US)
