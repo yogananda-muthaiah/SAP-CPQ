@@ -12,8 +12,7 @@
 * [Pricing Procedures in Accounts Payable ](https://community.sap.com/t5/kolkata-blog-posts/pricing-procedures-in-accounts-payable/ba-p/13703095)
 * [SAP S/4HANA Advanced Variant Configuration](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/sap-s-4hana-advanced-variant-configuration/ba-p/13529121)
 * [How to Use Custom Fields for Pricing in Sales Documents](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/how-to-use-custom-fields-for-pricing-in-sales-documents/ba-p/13713941)
-
-
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/pricing-procedure-steps-and-details-in-sap-mm/ba-p/13087325
 
 ### KB Notes
 * https://me.sap.com/notes/2894167/E
