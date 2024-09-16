@@ -10,3 +10,5 @@
 * https://github.com/CadQuery/cadquery
 * https://www.fornjot.app/
 * https://replicad.xyz/docs/examples/simple-vase
+* https://www.drawnav.com/demo
+* https://www.cadwithai.com/?
