@@ -7,3 +7,6 @@
 * https://www.hestus.co/
 * https://solvespace.com/index.pl
 * https://zoo.dev/text-to-cad
+* https://github.com/CadQuery/cadquery
+* https://www.fornjot.app/
+* https://replicad.xyz/docs/examples/simple-vase
