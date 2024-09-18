@@ -1,8 +1,9 @@
 
 
 
-
+### Configuration (LOVC or AVC)
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/variant-configuration-simple-method-step-by-step/ba-p/13639657
+* https://community.sap.com/t5/supply-chain-management-blogs-by-members/advanced-variant-configuration-avc/ba-p/13867312
 
   ## Service
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-order-with-advance-shipment-of-spare-parts/ba-p/13639649
