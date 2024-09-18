@@ -1,5 +1,6 @@
 
-
+### Learning S/4 HANA Sales
+* https://learning.sap.com/learning-journeys/explore-sap-s-4hana-sales
 
 ### Configuration (LOVC or AVC)
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/variant-configuration-simple-method-step-by-step/ba-p/13639657
