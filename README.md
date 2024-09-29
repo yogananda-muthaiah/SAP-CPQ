@@ -8,7 +8,7 @@
 ### Integrations
 * https://help.sap.com/docs/SAP_CPQ/f80fbcd4f1c74232839c30ce26886f07/1a0e5d41ac6543059026b35e444c296d.html?locale=en-US
 
-### Feature requests
+### Ask for SAP CPQ Feature requests
 * https://influence.sap.com/sap/ino/#/campaign/2671
 
 ### CPQ Blogs
@@ -21,7 +21,7 @@
 * https://roadmaps.sap.com/board?PRODUCT=73555000100800001601&range=CURRENT-LAST#Q2%202024
 
 ### Customer Influence Portal Requests (Feature Requests)
-*
+* https://influence.sap.com/sap/ino/#/campaign/2671
 
 ### SAP Quote to Cash
 * [Webinars](https://gateway.on24.com/wcc/eh/4322431/group/127479/sap-quote-to-cash-solutions)
