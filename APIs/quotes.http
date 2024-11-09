@@ -1,0 +1,95 @@
+
+@new_url = https://XXXX.cpq.cloud.sap
+@username = 
+@password =
+
+###  Password Grant API Authentication
+# @name login
+POST {{new_url}}/oauth2/token
+Content-Type: application/json;charset=UTF-8
+
+grant_type=password&username={{username}}&password={{password}}&scope=configurations_admin
+
+@accessToken = {{login.response.body.access_token}}
+
+
+###  To Create a New quote and copy the quote id from response
+POST {{new_url}}/api/v1/quotes
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+   "quoteNumber": "3211113213213213",
+    "OpportunityId": "985406-3454",
+    "OpportunityName": "TestSAP"
+}
+
+###
+GET {{new_url}}/api/v1/quotes?$top=1000&$skip=0
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+### 
+GET {{new_url}}/api/v1/quotes?$filter=datecreated eq '2024-04-30'
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes?$filter=(datecreated ge '2024-04-30' and datecreated le '2024-04-30')
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json  
+
+###
+GET {{new_url}}/api/v1/quotes?$filter=QuoteId eq '1340'
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395/items?&$skip=0&$top=1000
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1338/items/$count
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+  
+###
+GET {{new_url}}/api/v1/quotes/1395/productTypes
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1338/conditions
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1338/revisions
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395/involvedParties
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395/documents
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395/approvals
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1395/attachments
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json  
