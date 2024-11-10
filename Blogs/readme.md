@@ -1,4 +1,4 @@
-### List of SAP Blogs
+### List of SAP CPQ Blogs (Author by Yogananda)
 
 * https://community.sap.com/t5/financial-management-blogs-by-sap/increasing-customer-influence-product-enhancements-for-sap-cpq-product/ba-p/13798434
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-business-process-flow-for-back-end-integrations-amp-sales-journeys/ba-p/13560136
