@@ -21,8 +21,23 @@
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-integration-with-sap-build-mobile-app/ba-p/13524639
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/new-email-settings-guide-for-sap-cpq-version-2405/ba-p/13706400
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-2405-release-overview/ba-p/13646624
-
-
-
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-integration-with-subscription-billing/ba-p/13534670
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-keeping-credentials-safe-at-credential-management/ba-p/13521982
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-discover-standard-integrations-packages-available/ba-p/13525846
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-2205-release-ironpython-scripting-changes/ba-p/13522427
+* https://community.sap.com/t5/financial-management-blogs-by-sap/most-commonly-used-ironpython-functions-in-sap-cpq/ba-p/13506979
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-erp-reference-characteristics-mapping/ba-p/13497128
+* https://community.sap.com/t5/financial-management-blogs-by-sap/introducing-sap-cap-for-sap-cpq/ba-p/13492664
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-customize-your-notification-emails/ba-p/13492256
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-knowledge-base-kb-language-translation/ba-p/13520235
+* https://community.sap.com/t5/financial-management-blogs-by-sap/configure-your-own-idp-sso-in-sap-cpq/ba-p/13513808
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-ironpython-clean-code-tips/ba-p/13495606
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-must-to-know-quote-1-0-vs-quote-2-0/ba-p/13514122
+* https://community.sap.com/t5/financial-management-blogs-by-sap/know-more-about-sap-cpq-with-quick-info-s/ba-p/13459632
+* https://community.sap.com/t5/financial-management-blogs-by-sap/integration-with-docusign-e-signature-end-paperless/ba-p/13488659
+* https://community.sap.com/t5/financial-management-blogs-by-sap/%EF%B8%8F-system-requirements-for-integrations-with-sap-cpq/ba-p/13472756
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/watch-learn-microlearning-videos-sap-variant-configuration-with-cpq/ba-p/13484286
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-stateful-api-authentication-using-in-3rd-party-other-tools/ba-p/13460248
+  
 
 
