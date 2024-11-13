@@ -17,3 +17,4 @@
 
 ### Condition Contract
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/condition-contract-management-sales-commission-for-external-sales-agent/ba-p/13545090
+
