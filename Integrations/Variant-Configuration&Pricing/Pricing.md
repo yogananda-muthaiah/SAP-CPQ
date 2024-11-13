@@ -15,8 +15,7 @@
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/pricing-procedure-steps-and-details-in-sap-mm/ba-p/13087325
 
 
-### Condition Contract
-* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/condition-contract-management-sales-commission-for-external-sales-agent/ba-p/13545090
+
 
 ### KB Notes
 * https://me.sap.com/notes/2894167/E
