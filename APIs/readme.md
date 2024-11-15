@@ -7,3 +7,10 @@
 
 * [CPQ API Documenation] - (https://XXXX.cpq.cloud.sap/webapihelp/index#!/Admin/Admin_GenerateSecretKey)
 * [SAP API Business Hub - SAP CPQ](https://api.sap.com/search?searchterm=SAP%20CPQ&tab=APIs&$refinedBy=true&$type=(%22API%22,%22API%20Package%22))
+
+
+
+
+
+## SAP API Standard Guidelines for all SAP Products
+* https://help.sap.com/docs/api-style-guide/sap-api-style-guide-public/sap-api-style-guide
