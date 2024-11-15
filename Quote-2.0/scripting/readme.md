@@ -1,4 +1,7 @@
 
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-ironpython-clean-code-tips/ba-p/13495606
+
+
 #### Get Involved Parties
 ```
 for i in QuoteHelper.Get('00020466').GetInvolvedParties():
