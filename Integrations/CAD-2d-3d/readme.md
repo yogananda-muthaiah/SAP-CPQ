@@ -1,4 +1,4 @@
-
+## External Vendors for your customized approach for SAP CPQ
 
 ### Below reference sites provides insights related to CAD Diagrams 
 
@@ -15,3 +15,10 @@
 * https://www.drawnav.com/demo
 * https://www.cadwithai.com/?
 * https://sadilkhan.github.io/text2cad-project/
+
+
+### 3D Product Configurator
+* https://www.expivi.com/
+* https://www.expivi.com/3d-configurator/
+* https://www.expivi.com/cpq-software/
+* https://www.instantdesigntool.com/solutions/2d-and-3d-product-customizer
