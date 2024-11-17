@@ -1,5 +1,6 @@
 ### List of SAP CPQ Blogs (Author by Yogananda)
 
+* https://community.sap.com/t5/financial-management-blogs-by-sap/exploring-sap-cpq-quotes-apis-build-your-own-integration-for-reporting/ba-p/13939901
 * https://community.sap.com/t5/financial-management-blogs-by-sap/increasing-customer-influence-product-enhancements-for-sap-cpq-product/ba-p/13798434
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-business-process-flow-for-back-end-integrations-amp-sales-journeys/ba-p/13560136
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-how-to-write-cleaner-safer-code-with-sonarqube-docker/ba-p/13571432
