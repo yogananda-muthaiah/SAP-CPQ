@@ -45,51 +45,71 @@ Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395
+GET {{new_url}}/api/v1/quotes/3658
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395/items?&$skip=0&$top=1000
+GET {{new_url}}/api/v1/quotes/3658/items?&$skip=0&$top=1000
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1338/items/$count
+GET {{new_url}}/api/v1/quotes/3658/items?$expand=SelectedAttributes&$expand=PricingConditions&$expand=ExternalConfigurations
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1610/items/$count
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
   
 ###
-GET {{new_url}}/api/v1/quotes/1395/productTypes
+GET {{new_url}}/api/v1/quotes/1610/productTypes
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1338/conditions
+GET {{new_url}}/api/v1/quotes/1610/conditions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1338/revisions
+GET {{new_url}}/api/v1/quotes/1610/revisions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395/involvedParties
+GET {{new_url}}/api/v1/quotes/1610/comments
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395/documents
+GET {{new_url}}/api/v1/quotes/1610/actions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395/approvals
+GET {{new_url}}/api/v1/quotes/1610/involvedParties
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1395/attachments
+GET {{new_url}}/api/v1/quotes/1610/documents
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1610/approvals
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1610/approvals/responsibilities
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+###
+GET {{new_url}}/api/v1/quotes/1610/attachments
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json  
