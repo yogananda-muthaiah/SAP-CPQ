@@ -2,7 +2,7 @@
 ### Install Visual Studio Code and Go to Extension - Install RestClient for using APIs as playground
 
 * [Extension - Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-![Usage](files/2024-11-17_10-19-13.gif)
+![Usage](https://github.com/yogananda-muthaiah/SAP-CPQ/blob/4eefda29d00b35e793db33b073d83dbf4574356c/files/2024-11-17_10-19-13.gif)
 
 ### SAP CPQ APIs
 
