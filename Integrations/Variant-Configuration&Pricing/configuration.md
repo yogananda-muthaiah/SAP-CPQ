@@ -1,7 +1,7 @@
 
 
 *
-*
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/vch-afl-installation-upgrade-troubleshooting/ba-p/13942194
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/manage-characterstics-as-custom-fields-in-fiori-apps/ba-p/13750530
 
 
