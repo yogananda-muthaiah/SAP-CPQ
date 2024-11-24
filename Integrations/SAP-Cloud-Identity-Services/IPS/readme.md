@@ -1,4 +1,4 @@
-## Identity Provisioning Service
+# Identity Provisioning Service
 
 * https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/provisioning-systems?locale=en-US
 
