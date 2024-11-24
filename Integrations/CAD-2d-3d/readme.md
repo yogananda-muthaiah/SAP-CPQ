@@ -1,4 +1,6 @@
 ## External Vendors for your customized approach for SAP CPQ
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-bring-interactive-real-time-3d-product-configuration-from-expivi/ba-p/13528376
+
 
 ### Below reference sites provides insights related to CAD Diagrams 
 
