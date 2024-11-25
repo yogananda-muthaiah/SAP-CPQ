@@ -17,6 +17,9 @@
 ### Ask any questions or doubts
 * https://community.sap.com/t5/c-khhcw49343/SAP+CPQ/pd-p/73555000100800001601
 
+### Subscribe for Notifications
+* https://help.sap.com/docs/SAP_CPQ/abe5bf645c9542a5bd4cbfdcc1a4876c/0b8fa7214bb045bbbca5c93a6c0a6995.html
+
 ### CPQ Roadmap Explorer
 * https://roadmaps.sap.com/board?PRODUCT=73555000100800001601&range=CURRENT-LAST#Q2%202024
 
