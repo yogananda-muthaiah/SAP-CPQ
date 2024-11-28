@@ -7,3 +7,8 @@
 ### Browser Steps
 
 * https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_list/#filtering-by-properties
+
+
+
+### Parameters
+* CALCULATEONLYCHANGEDITEMS is a public parameter and can be found under General/Application Parameters in the 'Shopping Carts and Quote' tab, labeled: Enable to only run calculations on items that have been changed.
