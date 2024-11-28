@@ -6,7 +6,8 @@
 ### List of Properties
 * https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/list-of-properties?locale=en-US 
 
-
+### SAP CPQ SCIM API Documentation
+* https://help.sap.com/docs/SAP_CPQ/08a7929ad06d4680b4f18cb57bc1a1d3/7cf5d969d59a4723bcfd01cc38322a00.html
 
 
 
