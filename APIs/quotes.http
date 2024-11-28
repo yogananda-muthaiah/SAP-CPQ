@@ -44,73 +44,76 @@ GET {{new_url}}/api/v1/quotes?$filter=QuoteId eq '1340'
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
+### update the quote Id
+@quoteid = 1610
+
 ###
-GET {{new_url}}/api/v1/quotes/3658
+GET {{new_url}}/api/v1/quotes/{{quoteid}}
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/3658/items?&$skip=0&$top=1000
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/items?&$skip=0&$top=1000
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/3658/items?$expand=SelectedAttributes&$expand=PricingConditions&$expand=ExternalConfigurations
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/items?$expand=SelectedAttributes&$expand=PricingConditions&$expand=ExternalConfigurations
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/items/$count
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/items/$count
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
   
 ###
-GET {{new_url}}/api/v1/quotes/1610/productTypes
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/productTypes
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/conditions
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/conditions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/revisions
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/revisions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/comments
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/comments
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/actions
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/actions
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/involvedParties
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/involvedParties
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/documents
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/documents
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/approvals
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/approvals
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/approvals/responsibilities
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/approvals/responsibilities
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/1610/attachments
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/attachments
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json  
 
@@ -118,7 +121,7 @@ Content-Type: application/json
 ##################  Updating the Quote items and quote Headers #########################
 
 ###
-PATCH {{new_url}}/api/v1/quotes/1610
+PATCH {{new_url}}/api/v1/quotes/{{quoteid}}
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
@@ -127,7 +130,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH {{new_url}}/api/v1/quotes/1610/items/11438
+PATCH {{new_url}}/api/v1/quotes/{{quoteid}}/items/11438
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
@@ -136,7 +139,7 @@ Content-Type: application/json
 }
 
 ###
-POST {{new_url}}/api/v1/quotes/1610/items
+POST {{new_url}}/api/v1/quotes/{{quoteid}}/items
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
