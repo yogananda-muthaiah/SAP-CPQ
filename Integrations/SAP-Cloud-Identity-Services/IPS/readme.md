@@ -9,7 +9,9 @@
 ### SAP CPQ SCIM API Documentation
 * https://help.sap.com/docs/SAP_CPQ/08a7929ad06d4680b4f18cb57bc1a1d3/7cf5d969d59a4723bcfd01cc38322a00.html
 
-
+  #### SCIM RFCs
+  * https://datatracker.ietf.org/doc/html/rfc7644
+  * https://www.rfc-editor.org/rfc/rfc7644.txt
 
 ## To Build Transformation between Source & Target Systems
 
