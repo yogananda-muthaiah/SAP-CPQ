@@ -113,3 +113,37 @@ Content-Type: application/json
 GET {{new_url}}/api/v1/quotes/1610/attachments
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json  
+
+
+##################  Updating the Quote items and quote Headers #########################
+
+###
+PATCH {{new_url}}/api/v1/quotes/1610
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "Project Name" : "vvvv"
+}
+
+###
+PATCH {{new_url}}/api/v1/quotes/1610/items/11438
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+{
+  "DiscountPercent": "1.0000"
+}
+
+###
+POST {{new_url}}/api/v1/quotes/1610/items
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+[
+  {
+    "PartNumber": "sp001",
+    "Quantity": 1,
+    "discount": 5.0
+  }
+]
