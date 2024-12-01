@@ -1,1 +1,23 @@
+@new_url = https://XXXX.cpq.cloud.sap
+@username = 
+@password =
 
+###  Password Grant API Authentication
+# @name login
+POST {{new_url}}/oauth2/token
+Content-Type: application/json;charset=UTF-8
+
+grant_type=password&username={{username}}&password={{password}}&scope=configurations_admin
+
+@accessToken = {{login.response.body.access_token}}
+
+
+###  To get Users
+GET {{host}}/api/scim/v2/Users
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+
+### To get Groups
+GET {{host}}/api/scim/v2/Groups
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
