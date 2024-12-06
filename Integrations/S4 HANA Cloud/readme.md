@@ -1,5 +1,6 @@
 ## Learning
 
+* https://learning.sap.com/learning-journeys/configuring-sap-s-4hana-cloud-private-edition-sales
 * https://learning.sap.com/learning-journeys/applying-supply-chain-execution-in-sap-s-4hana-cloud-private-edition
 
 ## SAP CPQ Quote 2.0 Integration with SAP S/4 HANA Public Cloud 
