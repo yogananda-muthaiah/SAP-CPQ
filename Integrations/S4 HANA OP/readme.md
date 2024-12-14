@@ -12,6 +12,7 @@
   ## Sales
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/how-to-fix-the-material-stock-company-code-xxxx-must-be-booked-out-in-last/ba-p/13963393
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/fscm-credit-limit-requests-approval-using-manage-credit-management-rules/ba-p/13559353
+  * https://community.sap.com/t5/technology-blogs-by-members/sales-order-level-approval-workflow-and-release-from-credit-block-2-in-1/ba-p/13426246
 
 
   ## Service
