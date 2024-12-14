@@ -14,6 +14,7 @@
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/fscm-credit-limit-requests-approval-using-manage-credit-management-rules/ba-p/13559353
   * https://community.sap.com/t5/technology-blogs-by-members/sales-order-level-approval-workflow-and-release-from-credit-block-2-in-1/ba-p/13426246
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/everything-you-need-to-know-about-mrp-areas-in-s-4hana/ba-p/13539840
+  * https://community.sap.com/t5/human-capital-management-blogs-by-sap/employee-business-partner-in-sap-s-4-hana/ba-p/13959210
 
 
   ## Service
