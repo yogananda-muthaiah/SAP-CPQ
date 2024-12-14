@@ -10,7 +10,7 @@
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/advanced-variant-configuration-avc/ba-p/13867312
 
   ## Sales
-  *
+  * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/how-to-fix-the-material-stock-company-code-xxxx-must-be-booked-out-in-last/ba-p/13963393
 
 
   ## Service
