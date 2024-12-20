@@ -36,6 +36,8 @@
 ### Certification
 * To be updated
 
+### Onboarding SAP CPQ
+* https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/sap-cpq-onboarding-webcasts.html?source=social-Support-Services_and_Support-Image-Awareness-Global-N%2FA-support.com&campaigncode=CRM-YA23-SMS-1941773&sprinklrid=15477816304&anchorId=section_390523466
 
 ### KnockoutJS Extensions / github repo
 * https://github.com/alexcodito/KnockoutContextHover
