@@ -2,6 +2,9 @@
 
 
 
+### Influence Portal (Feature Request)
+* https://influence.sap.com/sap/ino/#/campaign/2277/ideas
+
 
 ### How to get SAP BTP Trail Account for 90days
 
