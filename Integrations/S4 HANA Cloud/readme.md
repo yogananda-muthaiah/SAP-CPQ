@@ -20,3 +20,13 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * [Integration of Solution Orders with Customer Projects: Mapping of Accounting Data ](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/integration-of-solution-orders-with-customer-projects-mapping-of-accounting/ba-p/13949478)
 * [Enable OAuth 2.0 Authorization Code for Sales Order (A2X) API](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/enable-oauth-2-0-authorization-code-for-sales-order-a2x-api/ba-p/13617148)
 * [Enhancing Financial Management with SAP S/4HANA Cloud 2408.3](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/enhancing-financial-management-with-sap-s-4hana-cloud-2408-3/ba-p/13964111)
+
+
+
+
+### Blogs for Communication System
+* https://community.sap.com/t5/technology-blogs-by-sap/odata-api-attachments-service-in-sap-s-4hana-cloud/ba-p/13521460
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/setting-up-communication-management-in-sap-s-4hana-cloud/ba-p/13324940
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/s-4hana-cloud-communication-arrangement-configuration/ba-p/13550711
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/outbound-communication-from-cloud-to-on-premise-in-s-4hana-cloud/ba-p/13540015
+* https://community.sap.com/t5/technology-blogs-by-members/how-to-integrate-s4hana-cloud-and-on-premise-system-using-sap-cloud/ba-p/13360254
