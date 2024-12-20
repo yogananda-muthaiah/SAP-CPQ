@@ -27,6 +27,7 @@
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-order-with-procurement-of-spare-parts-from-intercompany-supplier/ba-p/13947558
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-order-with-external-service-procurement/ba-p/13895069
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-with-advanced-execution-and-fixed-price-billing/ba-p/13636770
+  * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-with-advanced-execution-process-flow-4-service-quotation-with/ba-p/13967546
 
   ## Subscription
 
