@@ -28,6 +28,8 @@
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/sap-variant-configuration-pricing-2305-release-highlights/ba-p/13566114
 
 ### Local Extensions and Exits
+
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/transforming-abap-pricing-user-exits-to-local-extensions-for-sap-variant/ba-p/13797336
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/implementation-of-local-extensions-for-sap-variant-configuration-and/ba-p/13703401
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/sap-variant-configuration-and-pricing-extension-concept/ba-p/13569122
++ https://help.sap.com/docs/variant-configuration-and-pricing/extension-guide-for-sap-variant-configuration-and-pricing/extension-api-of-sap-variant-configuration-and-pricing
