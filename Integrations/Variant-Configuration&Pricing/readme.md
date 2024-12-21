@@ -1,6 +1,6 @@
 
 
-### Help Documenation
+### Help Documentation
 * https://help.sap.com/docs/variant-configuration-and-pricing?locale=en-US
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/variant-configuration-service-solution-brief/ba-p/13568955
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/pricing-service-solution-brief/ba-p/13568963
