@@ -14,7 +14,8 @@
 * [How to Use Custom Fields for Pricing in Sales Documents](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/how-to-use-custom-fields-for-pricing-in-sales-documents/ba-p/13713941)
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/pricing-procedure-steps-and-details-in-sap-mm/ba-p/13087325
 
-
+### No Implmented Extensions (Formulas & User Exist Removal from CPQ)
+* https://help.sap.com/docs/variant-configuration-and-pricing/extension-guide-for-sap-variant-configuration-and-pricing/ignore-non-implemented-extensions
 
 
 ### KB Notes
