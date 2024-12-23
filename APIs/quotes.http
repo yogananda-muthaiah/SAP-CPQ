@@ -58,12 +58,12 @@ Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/{{quoteid}}/items?$expand=SelectedAttributes&$expand=PricingConditions&$expand=ExternalConfigurations
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/items/$count
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
 
 ###
-GET {{new_url}}/api/v1/quotes/{{quoteid}}/items/$count
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/items?$expand=SelectedAttributes&$expand=PricingConditions&$expand=ExternalConfigurations
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json
   
@@ -114,6 +114,11 @@ Content-Type: application/json
 
 ###
 GET {{new_url}}/api/v1/quotes/{{quoteid}}/attachments
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json  
+
+###
+GET {{new_url}}/api/v1/quotes/{{quoteid}}/quoteTables/<your quote table>/rows
 Authorization: Bearer {{accessToken}}
 Content-Type: application/json  
 
