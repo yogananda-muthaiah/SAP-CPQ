@@ -1,6 +1,11 @@
 
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-ironpython-clean-code-tips/ba-p/13495606
 
+#### Get current Quote
+```
+context.Quote
+```
+
 
 #### Get Involved Parties
 ```
