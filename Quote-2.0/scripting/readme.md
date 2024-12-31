@@ -1,6 +1,50 @@
 
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-ironpython-clean-code-tips/ba-p/13495606
 
+### Available Scripting Battery
+
+| Name                      | Type                                  |
+|---------------------------|---------------------------------------|
+| ApiResponseFactory        | Scripting.IApiResponseFactory         |
+| Assert                    | Scripting.IAssert                     |
+| AuthorizedRestClient      | Scripting.IAuthorizedRestClient       |
+| BusinessPartnerRepository | Scripting.IBusinessPartnerRepository  |
+| Convert                   | Scripting.IConvert                    |
+| Cryptography              | Scripting.ICryptography               |
+| F                         | Scripting.IAliases                    |
+| FederationUtility         | Scripting.IFederationUtility          |
+| FileHelper                | Scripting.IFileHelper                 |
+| HttpUtility               | Scripting.IHttpUtility                |
+| HttpWebClientProtocol     | Scripting.IHttpWebClientProtocol      |
+| Items                     | Scripting.IRequestItems               |
+| JsonHelper                | Scripting.IJsonHelper                 |
+| JwtTokenProvider          | Scripting.Jwt.IJwtTokenProvider       |
+| Log                       | Scripting.ILog                        |
+| PartnerFunctionRepository | Scripting.IPartnerFunctionRepository  |
+| Product                   | Scripting.IProduct                    |
+| ProductHelper             | Scripting.IProductHelper              |
+| QuoteHelper               | Scripting.Quote.IQuoteHelper          |
+| RequestContext            | Scripting.IRequestContext             |
+| RestClient                | Scripting.IRestClient                 |
+| SalesArea                 | Scripting.ISalesArea                  |
+| SamlAssertionProvider     | Scripting.ISamlAssertionProvider      |
+| SapPassport               | Scripting.ISapPassport                |
+| ScriptExecutor            | Scripting.IScriptExecutor             |
+| Session                   | Scripting.ISession                    |
+| SmtpClient                | Scripting.ISmtpClient                 |
+| SoapHttpClientProtocol    | Scripting.ISoapHttpClientProtocol     |
+| SqlHelper                 | Scripting.ISqlHelper                  |
+| TagParserProduct          | Scripting.ITagParserProduct           |
+| TagParserQuote            | Scripting.ITagParserQuote             |
+| Trace                     | Scripting.ITrace                      |
+| Translation               | Scripting.ITranslation                |
+| User                      | Scripting.IUser                       |
+| UserPersonalizationHelper | Scripting.IUserPersonalizationHelper  |
+| WebServiceHelper          | Scripting.IWebServiceHelper           |
+| WorkflowContext           | Scripting.IWorkflowContext            |
+| XmlHelper                 | Scripting.IXmlHelper                  |
+| mTLSRestClient            | Scripting.ImutualTLSRestClient        |
+
 #### Get current Quote
 ```
 context.Quote
