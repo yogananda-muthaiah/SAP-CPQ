@@ -19,3 +19,6 @@
 
 > BTP Neo - SAP CPI ,HCI - Any Custom Iflows designed, developed or any modifications in Standard Integration Packages - Messages Charged 
 * https://community.sap.com/t5/technology-blogs-by-sap/cloud-integration-downloading-cpi-connections-report/ba-p/13483317
+
+### Migration Guide and Checklist
+* https://community.sap.com/t5/technology-blogs-by-members/migration-checklist-sap-po-to-sap-integration-suite-cloud-integration/ba-p/13977542
