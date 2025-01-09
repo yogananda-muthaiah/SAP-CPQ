@@ -30,6 +30,7 @@
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-with-advanced-execution-and-fixed-price-billing/ba-p/13636770
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-with-advanced-execution-process-flow-4-service-quotation-with/ba-p/13967546
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/credit-check-behaviour-for-unplanned-items-in-service-processes/ba-p/13977268
+  * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/billing-relevance-g-in-execution-order-items-in-service-with-advanced/ba-p/13981688
 
   ## Subscription
 
