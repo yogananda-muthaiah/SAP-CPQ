@@ -1,3 +1,6 @@
+### SAP CPQ with SAP BRIM Integration
+* [SAP CPQ - Quote 2.0 Integration with SAP Billing and Revenue Innovation Management](https://api.sap.com/package/SAPCPQQuote2.0integrationwithSAPBillingRevenueandInnovationManagementOnPrem/integrationflow)
+
 
 ### Learnig BRIM
 * https://learning.sap.com/learning-journeys/discovering-the-capabilities-of-sap-solutions-for-quote-to-cash-management-private-cloud-brim-for-solution-architects
