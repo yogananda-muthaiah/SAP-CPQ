@@ -7,3 +7,4 @@
 
 ### Standard Integration Packages (SAP CPQ with Icertis) - SAP API Business Hub
 * https://api.sap.com/package/IcertisContractIntelligenceICIIntegrationwithSAPCPQandSAPS4HANASellSideExtensions/integrationflow
+* [Icertis Contract Intelligence (ICI) Integration with SAP CPQ and SAP S/4HANA (Sell Side)](https://api.sap.com/package/SAPCPQQuote2.0integrationwithSAPBillingRevenueandInnovationManagementOnPrem.ICIMasterDataReplication/integrationflow)
