@@ -1,4 +1,7 @@
-### SAP CPQ with SAP BRIM Integration
+### SAP CPQ Integration Guide
+* https://help.sap.com/docs/SAP_CPQ/a5de4dd4b8b047feb894c618aed793b9/df4810ddc9934cdab8d2bad5333e1a72.html?state=DRAFT
+
+### SAP CPQ with SAP BRIM Integration (Integration Standard Package)
 * [SAP CPQ - Quote 2.0 Integration with SAP Billing and Revenue Innovation Management](https://api.sap.com/package/SAPCPQQuote2.0integrationwithSAPBillingRevenueandInnovationManagementOnPrem/integrationflow)
 
 
