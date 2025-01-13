@@ -2,7 +2,7 @@
 ### Integration Suite or CPI (Cloud Platform Integration)
 * [Documentation]
 
-### Monthly Product Updates (Subscribe & Get recordings - Interact with Integration Black Belet Experts)
+### Monthly Product Updates (Subscribe & Get recordings - Interact with Integration Black Belt Experts)
 * https://events.sap.com/sap-user-groups/en/ifg_for_integration?sap-outbound-id=A7B311F4966D8A665C9F6FE19B502E6D1B831D08
 
 
