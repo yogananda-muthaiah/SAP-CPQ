@@ -8,6 +8,8 @@
 ### SDI Installation Instructions
 * https://me.sap.com/notes/2864628
 
+### Onboarding Process & Watch the video in the link
+* https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing/onboarding-with-sap-btp-cockpit
 
 ### API Documentation
 * https://api.sap.com/package/SAPProductConfiguration/rest
