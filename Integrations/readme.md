@@ -24,3 +24,7 @@
 * [Sign up for an SAP HANA Cloud Trial account](https://developers.sap.com/tutorials/hana-cloud-mission-trial-1.html)
 * [Set Up Integration Suite Trial](https://developers.sap.com/tutorials/cp-starter-isuite-onboard-subscribe.html)
 * [Get Ready for Your SAP Datasphere Trial Mission](https://developers.sap.com/tutorials/data-warehouse-cloud-1-begin-trial.html)
+
+
+## Why do we need Clean Core ?
+* https://community.sap.com/t5/technology-blogs-by-sap/for-an-in-depth-look-at-clean-core-and-how-to-implement-it-read-our-clean/ba-p/13984597
