@@ -43,3 +43,5 @@
   ## Condition Contract
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/condition-contract-management-sales-commission-for-external-sales-agent/ba-p/13545090
 
+### AIF
+* https://community.sap.com/t5/technology-blogs-by-members/error-handling-and-reprocessing-of-odata-through-application-interface/ba-p/13984711
