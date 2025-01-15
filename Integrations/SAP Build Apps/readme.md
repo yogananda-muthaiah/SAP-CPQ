@@ -9,3 +9,6 @@
 
 ###  How to get SAP Build Apps (Trail Account) 
 * [Set Up SAP Build Apps on SAP BTP Trial Account](https://developers.sap.com/tutorials/build-apps-trial.html)
+
+### Learning and Certifed
+* https://learning.sap.com/learning-journeys/experiencing-end-to-end-sap-build
