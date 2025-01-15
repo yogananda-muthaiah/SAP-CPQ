@@ -5,9 +5,10 @@
 * [SAP CPQ - Quote 2.0 Integration with SAP Billing and Revenue Innovation Management](https://api.sap.com/package/SAPCPQQuote2.0integrationwithSAPBillingRevenueandInnovationManagementOnPrem/integrationflow)
 
 
-### Learnig BRIM
+### Learning BRIM
 * https://learning.sap.com/learning-journeys/discovering-the-capabilities-of-sap-solutions-for-quote-to-cash-management-private-cloud-brim-for-solution-architects
 * https://learning.sap.com/learning-journeys/implementing-sap-convergent-invoicing
+* https://learning.sap.com/learning-journeys/implementing-sap-convergent-charging
 * https://learning.sap.com/learning-journeys/discovering-the-capabilities-of-sap-solutions-for-quote-to-cash-management-private-cloud-brim-for-business-user
 * https://learning.sap.com/learning-journeys/implementing-sap-s-4hana-cloud-for-contract-accounting-invoicing
 * https://learning.sap.com/learning-journeys/managing-cash-application-for-fi-ca
