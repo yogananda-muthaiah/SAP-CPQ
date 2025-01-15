@@ -8,6 +8,10 @@
 ### Implementing Variant Configuration in SAP S/4HANA Cloud Private Edition
 * https://learning.sap.com/learning-journeys/implementing-variant-configuration-in-sap-s-4hana-cloud-private-edition
 
+### Hands-on Practice for Variant Configuration in SAP S/4HANA Enterprise Management
+* https://learning.sap.com/practice-systems/variant-configuration-in-sap-s-4hana-enterprise-management
+* https://learning.sap.com/practice-systems/variant-configuration-integration-and-configuration
+
 
 ### Blogs
 
