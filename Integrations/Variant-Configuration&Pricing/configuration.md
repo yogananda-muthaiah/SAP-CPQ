@@ -5,6 +5,8 @@
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/manage-characterstics-as-custom-fields-in-fiori-apps/ba-p/13750530
 
 
+### Implementing Variant Configuration in SAP S/4HANA Cloud Private Edition
+* https://learning.sap.com/learning-journeys/implementing-variant-configuration-in-sap-s-4hana-cloud-private-edition
 
 
 ### Blogs
