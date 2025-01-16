@@ -21,6 +21,7 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * [Enable OAuth 2.0 Authorization Code for Sales Order (A2X) API](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/enable-oauth-2-0-authorization-code-for-sales-order-a2x-api/ba-p/13617148)
 * [Enhancing Financial Management with SAP S/4HANA Cloud 2408.3](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/enhancing-financial-management-with-sap-s-4hana-cloud-2408-3/ba-p/13964111)
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/sap-s-4hana-cloud-public-edition-three-system-landscape-parallel-line-high/ba-p/13980946
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/double-check-your-serial-numbers-with-the-new-badi-serial-number-check/ba-p/13986795
 
 
 
