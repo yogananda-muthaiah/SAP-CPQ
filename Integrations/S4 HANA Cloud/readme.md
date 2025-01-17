@@ -22,6 +22,8 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * [Enhancing Financial Management with SAP S/4HANA Cloud 2408.3](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/enhancing-financial-management-with-sap-s-4hana-cloud-2408-3/ba-p/13964111)
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/sap-s-4hana-cloud-public-edition-three-system-landscape-parallel-line-high/ba-p/13980946
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/double-check-your-serial-numbers-with-the-new-badi-serial-number-check/ba-p/13986795
+* https://community.sap.com/t5/technology-blogs-by-members/creating-customer-in-sap-s-4-hana-public-cloud-via-odata/ba-p/13953228
+* https://community.sap.com/t5/beginner-corner-blog-posts/sap-s-4hana-cloud-sandbox-system-now-available/ba-p/9017
 
 
 
