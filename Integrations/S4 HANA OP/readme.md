@@ -46,3 +46,7 @@
 
 ### AIF
 * https://community.sap.com/t5/technology-blogs-by-members/error-handling-and-reprocessing-of-odata-through-application-interface/ba-p/13984711
+* 
+
+### Odata
+* https://community.sap.com/t5/application-development-blog-posts/publishing-odata-v4-service-in-a-customizing-client/ba-p/13987743
