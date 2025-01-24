@@ -26,6 +26,7 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * https://community.sap.com/t5/beginner-corner-blog-posts/sap-s-4hana-cloud-sandbox-system-now-available/ba-p/9017
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/get-to-know-display-product-availability/ba-p/13950902
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/four-clean-core-use-cases-for-sap-s-4hana-cloud-with-sap-business/ba-p/13991356
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/highlights-of-the-sap-s-4hana-cloud-public-edition-2502-release/ba-p/13980047
 
 
 
