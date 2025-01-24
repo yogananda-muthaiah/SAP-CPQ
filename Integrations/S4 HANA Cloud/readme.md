@@ -4,6 +4,10 @@
 * https://learning.sap.com/learning-journeys/applying-supply-chain-execution-in-sap-s-4hana-cloud-private-edition
 * https://learning.sap.com/learning-journeys/implementing-document-management-in-sap-s-4hana-cloud-private-edition
 
+### Release Navigator
+* [Release Navigator for SAP S/4HANA Cloud Public Edition](https://readiness-at-scale.enable-now.cloud.sap/pub/20230621_ras/index.html?show=book!BO_70160B08CE741383#slide!SL_F7CC175098112D99)
+
+
 ## SAP CPQ Quote 2.0 Integration with SAP S/4 HANA Public Cloud 
 
 * [SAP Activate for SAP S/4HANA Cloud Public Edition (3-system landscape)](
