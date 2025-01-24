@@ -50,3 +50,6 @@
 
 ### Odata
 * https://community.sap.com/t5/application-development-blog-posts/publishing-odata-v4-service-in-a-customizing-client/ba-p/13987743
+
+### TC Tables Data Dictionary
+* https://www.sapdatasheet.org/abap/tabl/komk-fbuda.html
