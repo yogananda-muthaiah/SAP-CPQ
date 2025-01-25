@@ -2,8 +2,8 @@
 
 * https://www.sap.com/products/financial-management/cpq.html
 
-### [SAP CPQ Help documentation](https://help.sap.com/docs/SAP_CPQ?locale=en-US)
-### [CPQ Standard Integrations](https://help.sap.com/docs/SAP_CPQ/f80fbcd4f1c74232839c30ce26886f07/1a0e5d41ac6543059026b35e444c296d.html?locale=en-US)
+### 🛍 [SAP CPQ Help documentation](https://help.sap.com/docs/SAP_CPQ?locale=en-US)
+### ⛓ [CPQ Standard Integrations](https://help.sap.com/docs/SAP_CPQ/f80fbcd4f1c74232839c30ce26886f07/1a0e5d41ac6543059026b35e444c296d.html?locale=en-US)
 ### 📋 [SAP CPQ Blogs](https://community.sap.com/t5/c-khhcw49343/SAP+CPQ/pd-p/73555000100800001601)
 ### ❓ [Ask any SAP CPQ questions or doubts](https://community.sap.com/t5/c-khhcw49343/SAP+CPQ/pd-p/73555000100800001601)
 ### 📢 [Subscribe for Notifications](https://help.sap.com/docs/SAP_CPQ/abe5bf645c9542a5bd4cbfdcc1a4876c/0b8fa7214bb045bbbca5c93a6c0a6995.html)
@@ -14,9 +14,9 @@
 * [Webinars](https://gateway.on24.com/wcc/eh/4322431/group/127479/sap-quote-to-cash-solutions)
 * [CPQ Releases & Others](https://gateway.on24.com/wcc/eh/4322431/category/127475/configure-price-and-quote)
 
-### [SAP CPQ Learning Journey](https://learning.sap.com/learning-journeys/implementing-sap-cpq)
+### ♻️ [SAP CPQ Learning Journey](https://learning.sap.com/learning-journeys/implementing-sap-cpq)
 
-### Certification
+### 📜 Certification
 * To be updated
 
 ### 🚨 [Customer Penetration Testing Request Process](https://me.sap.com/notes/3080379/E)
