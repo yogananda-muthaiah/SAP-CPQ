@@ -4,6 +4,9 @@
 
 ### Below reference sites provides insights related to CAD Diagrams 
 
+* https://www.freecad.org/?lang=de
+* https://www.adamcad.com/
+* https://www.solidworks.com/product/solidworks-3d-cad
 * https://www.implicitcad.org/
 * https://openscad.org/index.html
 * https://www.cadsketcher.com/
