@@ -19,6 +19,7 @@
 * https://replicad.xyz/docs/examples/simple-vase
 * https://www.drawnav.com/demo
 * https://www.cadwithai.com/?
+* https://text-to-cad.zoo.dev/
 * https://sadilkhan.github.io/text2cad-project/
 
 
