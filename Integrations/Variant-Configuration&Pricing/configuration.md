@@ -3,6 +3,7 @@
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/the-trace-watching-object-dependencies-at-work/ba-p/13967481
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/vch-afl-installation-upgrade-troubleshooting/ba-p/13942194
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/manage-characterstics-as-custom-fields-in-fiori-apps/ba-p/13750530
+* https://community.sap.com/t5/technology-blogs-by-members/sap-sd-variant-pricing-configuration-and-implementation/ba-p/14037564
 
 
 ### Implementing Variant Configuration in SAP S/4HANA Cloud Private Edition
