@@ -13,3 +13,4 @@
 * https://learn.microsoft.com/en-us/entra/id-governance/scenarios/migrate-from-sap-idm
 * https://learn.microsoft.com/en-us/entra/id-governance/scenarios/sap-template
 * https://learn.microsoft.com/en-us/entra/id-governance/scenarios/deploy-sap-netweaver
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-netweaver-tutorial
