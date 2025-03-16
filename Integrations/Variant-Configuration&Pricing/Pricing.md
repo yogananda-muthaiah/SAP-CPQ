@@ -31,3 +31,4 @@
 ### Pricing Help documentation
 
 * [Product Hiearachy & Customer Hiearachy](https://help.sap.com/docs/variant-configuration-and-pricing/development-guide-for-sap-variant-configuration-and-pricing/product-hierarchy-and-customer-hierarchy?locale=en-US)
+* [S/4 HANA Cloud Pricing](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a376cd9ea00d476b96f18dea1247e6a5/5e49b753128eb44ce10000000a174cb4.html)
