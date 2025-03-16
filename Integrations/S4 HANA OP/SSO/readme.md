@@ -14,3 +14,10 @@
 * https://learn.microsoft.com/en-us/entra/id-governance/scenarios/sap-template
 * https://learn.microsoft.com/en-us/entra/id-governance/scenarios/deploy-sap-netweaver
 * https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-netweaver-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/saphana-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-fiori-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-hana-cloud-platform-identity-authentication-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-customer-cloud-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sap-hana-cloud-platform-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sapbusinessbydesign-tutorial
+* https://learn.microsoft.com/en-us/entra/identity/saas-apps/sapboc-tutorial
