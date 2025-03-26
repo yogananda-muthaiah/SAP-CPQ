@@ -15,6 +15,7 @@
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/pricing-procedure-steps-and-details-in-sap-mm/ba-p/13087325
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/configure-to-order-fulfillment-along-with-material-varaint-configuration/ba-p/13253921
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/round-off-condition-values-pricing-configuration/ba-p/13258206
+* https://community.sap.com/t5/sap-for-retail-blogs/automatic-sales-price-calculation-using-pricing-worklist-in-s-4hana-retail/ba-p/14025327
 
 ### Non Implemented Extensions (Formulas & User Exist Removal from CPQ)
 * https://help.sap.com/docs/variant-configuration-and-pricing/extension-guide-for-sap-variant-configuration-and-pricing/ignore-non-implemented-extensions
