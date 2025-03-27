@@ -16,7 +16,8 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * [Solution Order Management in SAP S/4HANA Cloud Public Edition 2408](https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/solution-order-management-in-sap-s-4hana-cloud-public-edition-2408/ba-p/13873445)
   
 
-
+### Extensibility 
+* https://extensibilityexplorer.cfapps.eu10.hana.ondemand.com/ExtensibilityExplorer/
 
 
 ### Blogs
