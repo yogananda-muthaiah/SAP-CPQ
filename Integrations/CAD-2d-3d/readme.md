@@ -29,6 +29,7 @@
 * https://www.expivi.com/cpq-software/
 * https://www.instantdesigntool.com/solutions/2d-and-3d-product-customizer
 * https://visionthree.io/
+* https://www.dimensions.com/
 
 ### 3D Playground
 * https://shapen.com/playground
