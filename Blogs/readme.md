@@ -1,5 +1,6 @@
 ### List of SAP CPQ Blogs (Author by Yogananda)
 
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-understanding-of-sap-variant-pricing-with-stateless-vs-document/ba-p/14053128
 * https://community.sap.com/t5/financial-management-blogs-by-sap/introducing-sap-cpq-product-rest-api-available/ba-p/14003577
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-integration-with-sirion-contract-lifecycle-management-clm/ba-p/14011679
 * https://community.sap.com/t5/financial-management-blogs-by-sap/exploring-sap-cpq-quotes-apis-build-your-own-integration-for-reporting/ba-p/13939901
