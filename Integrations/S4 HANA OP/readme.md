@@ -41,6 +41,10 @@
   ## RFQ
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/request-for-quotation-process-in-sap-s-4-hana/ba-p/13529030
 
+## Solution Quotation
+* https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/visualise-end-to-end-progress-of-solution-using-solution-quotation-fiori/ba-p/13897989
+
+
   ## Condition Contract
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/condition-contract-management-sales-commission-for-external-sales-agent/ba-p/13545090
 
