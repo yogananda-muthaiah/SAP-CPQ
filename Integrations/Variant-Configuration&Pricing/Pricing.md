@@ -3,6 +3,7 @@
 
 
 2 different Pricing concept exist today (Stateless and Document Pricing) 
+* https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-understanding-of-sap-variant-pricing-with-stateless-vs-document/ba-p/14053128
 
 
 ### Blogs
