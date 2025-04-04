@@ -1,1 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP API Request</title>
+    <style>
+        :root {
+            /* Light Theme (Default) */
+            --primary-color: #3b82f6;
+            --primary-hover: #2563eb;
+            --bg-color: #ffffff;
+            --card-bg-color: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+            --muted-color: #f3f4f6;
+            --muted-text: #6b7280;
+            --success-bg: #d1fae5;
+            --success-text: #065f46;
+            --error-bg: #fee2e2;
+            --error-text: #b91c1c;
+            --warning-bg: #fef3c7;
+            --warning-text: #92400e;
+            --radius: 0.375rem;
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+                0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        }
+
+        /* Dark Theme */
+        [data-theme="dark"] {
+            --primary-color: #4f46e5;
+            --primary-hover: #6366f1;
+            --bg-color: #0f0f0f;
+            --card-bg-color: #1f2937;
+            --text-color: #f9fafb;
+            --border-color: #374151;
+            --muted-color: #374151;
+            --muted-text: #9ca3af;
+            --success-bg: #064e3b;
+            --success-text: #a7f3d0;
+            --error-bg: #7f1d1d;
+            --error-text: #fecaca;
+            --warning-bg: #78350f;
+            --warning-text: #fde68a;
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3),
+                0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: transparent;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .card {
+            background-color: transparent;
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        .card>*:last-child {
+            margin-bottom: -1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            min-width: 80px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            font-size: 0.875rem;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        input.sm, select.sm, textarea.sm {
+            height: 1.875rem;
+            font-size: .75rem;
+        }
+
+        textarea {
+            min-height: 100px;
+            font-family: monospace;
+            resize: vertical;
+        }
+
+        button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            border: 1px solid var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            border-color: var(--primary-hover);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--muted-color);
+        }
+
+        .btn-icon {
+            padding: 0.25rem;
+            min-width: 2rem;
+            min-height: 2rem;
+        }
+
+        .btn-sm {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+        }
+
+        .btn-icon.sm {
+            min-width: 1.875rem;
+            min-height: 1.875rem;
+            padding: 0.2rem;
+        }
+
+        .icon {
+            width: 1rem;
+            height: 1rem;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tab {
+            flex: 1;
+            text-align: center;
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            font-weight: 500;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tab.active {
+            border-bottom-color: var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1rem 0;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .parameters-container {
+            background-color: var(--muted-color);
+            padding: .6rem 1rem;
+            border-radius: var(--radius);
+            margin-bottom: .5rem;
+        }
+
+        .parameter-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.25rem 0;
+        }
+
+        .parameter-label {
+            font-size: 0.75rem;
+            min-width: 80px;
+        }
+
+        .parameter-type {
+            color: var(--muted-text);
+            font-size: 0.75rem;
+        }
+
+        .headers-container {
+            margin-bottom: 1rem;
+        }
+
+        .header-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .response-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .status-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .status-success {
+            background-color: var(--success-bg);
+            color: var(--success-text);
+        }
+
+        .status-error {
+            background-color: var(--error-bg);
+            color: var(--error-text);
+        }
+
+        .status-warning {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+        }
+
+        .response-section {
+            margin-bottom: 1rem;
+        }
+
+        .response-section-title {
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .response-headers,
+        .response-body {
+            background-color: var(--muted-color);
+            padding: 0.75rem;
+            border-radius: var(--radius);
+            font-size: 0.75rem;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .response-header-item {
+            margin-bottom: 0.25rem;
+        }
+
+        .response-header-name {
+            font-weight: 500;
+        }
+
+        .response-body {
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 2rem;
+            color: var(--muted-text);
+        }
+
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .mb-2 {
+            margin-bottom: 0.5rem;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            label {
+                margin-bottom: 0.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+                <div class="form-group">
+                    <div class="form-row">
+                        <select id="httpMethod" style="width: auto;"></select>
+                        <input type="text" style="flex: 1;" id="path" placeholder="Path (e.g. /users/{id} or /users?id={id})" value="/users/{id}" />
+                        <button id="sendButton" class="btn-primary">
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="parametersContent" class="parameters-container hidden"></div>
+
+                <div>
+                    <div class="tabs">
+                        <div class="tab active" data-tab="request">Request</div>
+                        <div class="tab" data-tab="response">Response</div>
+                    </div>
+
+                    <div id="requestTab" class="tab-content active">
+                        <div class="headers-container">
+                            <div class="flex-between mb-2">
+                                <h3 style="font-size: 0.75rem">Headers</h3>
+                                <button id="addHeaderButton" class="btn-outline btn-sm">
+                                    <svg class="icon" viewBox="0 0 24 24" style="margin-right: 4px">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="8" x2="12" y2="16"></line>
+                                        <line x1="8" y1="12" x2="16" y2="12"></line>
+                                    </svg>
+                                    Add Header
+                                </button>
+                            </div>
+
+                            <div id="headersContent"></div>
+                        </div>
+
+                        <div id="requestBodyContainer">
+                            <div class="flex-between mb-2">
+                                <h3 style="font-size: 0.75rem">Request Body</h3>
+                                <button id="formatJsonButton" class="btn-outline btn-sm">
+                                    <svg class="icon" viewBox="0 0 24 24" style="margin-right: 4px">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                    Format JSON
+                                </button>
+                            </div>
+                            <textarea id="requestBody"
+                                placeholder="Enter request body (JSON)">{"name": "John Doe"}</textarea>
+                        </div>
+                    </div>
+
+                    <div id="responseTab" class="tab-content">
+                        <div id="responseContent" class="hidden">
+                            <div class="response-status">
+                                <div id="statusBadge" class="status-badge"></div>
+                                <div id="statusText"></div>
+                                <div id="responseTime" style="font-size: 0.75rem; color: var(--muted-text); margin-left: 0.5rem;"></div>
+                            </div>
+
+                            <div class="response-section">
+                                <h4 class="response-section-title">Response Headers</h4>
+                                <div id="responseHeaders" class="response-headers"></div>
+                            </div>
+
+                            <div class="response-section">
+                                <h4 class="response-section-title">Response Body</h4>
+                                <pre id="responseBody" class="response-body"></pre>
+                            </div>
+                        </div>
+                        <div id="responseError" class="hidden">
+                            <div
+                                style=" background-color: var(--error-bg); padding: 1rem; border-radius: var(--radius); border: 1px solid var(--error-text);">
+                                <h4 style="color: var(--error-text); margin-bottom: 0.5rem; font-size: 0.875rem;">
+                                    Error
+                                </h4>
+                                <p id="errorMessage" style="font-size: 0.875rem"></p>
+                                <p id="errorTime"
+                                    style="font-size: 0.75rem; color: var(--muted-text); margin-top: 0.5rem;"></p>
+                            </div>
+                        </div>
+                        <div id="emptyResponse" class="empty-state">Send a request to see the response here</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <script>
+        const httpMethods = ["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"];
+        const httpMethodsWithBody = ["POST", "PUT", "PATCH", "DELETE"]; 
+        const defaultConfig = {
+            baseUrl: "https://api.example.com",
+            defaultPath: "/users/{id}",
+            defaultMethod: "GET",
+            defaultHeaders: {
+                "Content-Type": "application/json",
+            },
+            defaultBody: '{"name": "John Doe"}',
+            excludedMethods: [],
+        }
+        // Parse config from URL parameter conf encoded as a JSON string
+        const urlParams = new URLSearchParams(window.location.search);
+        const configParam = urlParams.get("conf");
+        let config = defaultConfig;
+        if (configParam) {
+            try {
+                const parsedConfig = JSON.parse(decodeURIComponent(configParam));
+                config = { ...defaultConfig, ...parsedConfig };
+            } catch (e) {
+                console.error("Invalid config parameter:", e);
+            }
+        }
+        document.addEventListener("DOMContentLoaded", function() {
+            // Elements
+            const pathInput = document.getElementById("path");
+            const httpMethodSelect = document.getElementById("httpMethod");
+            const sendButton = document.getElementById("sendButton");
+            const parametersContent = document.getElementById("parametersContent");
+            const requestBodyContainer = document.getElementById("requestBodyContainer");
+            const requestBodyTextarea = document.getElementById("requestBody");
+            const formatJsonButton = document.getElementById("formatJsonButton");
+            const addHeaderButton = document.getElementById("addHeaderButton");
+            const headersContent = document.getElementById("headersContent");
+            const tabs = document.querySelectorAll(".tab");
+            const tabContents = document.querySelectorAll(".tab-content");
+            const responseContent = document.getElementById("responseContent");
+            const responseError = document.getElementById("responseError");
+            const emptyResponse = document.getElementById("emptyResponse");
+            const statusBadge = document.getElementById("statusBadge");
+            const statusText = document.getElementById("statusText");
+            const responseTime = document.getElementById("responseTime");
+            const responseHeaders = document.getElementById("responseHeaders");
+            const responseBody = document.getElementById("responseBody");
+            const errorMessage = document.getElementById("errorMessage");
+            const errorTime = document.getElementById("errorTime");
+
+            // State
+            let parameters = [];
+
+            // Initialize
+            setDefaultValues();
+            updateRequestBodyVisibility();
+            extractParameters();
+
+            // Event Listeners
+            pathInput.addEventListener("input", extractParameters);
+            httpMethodSelect.addEventListener(
+                "change",
+                updateRequestBodyVisibility
+            );
+            formatJsonButton.addEventListener("click", formatJson);
+            addHeaderButton.addEventListener("click", addHeader);
+            sendButton.addEventListener("click", sendRequest);
+
+            // Tab switching
+            tabs.forEach((tab) => {
+                tab.addEventListener("click", () => {
+                    const tabName = tab.getAttribute("data-tab");
+                    // Update active tab
+                    tabs.forEach((t) => t.classList.remove("active"));
+                    tab.classList.add("active");
+                    // Update active content
+                    tabContents.forEach((content) => {
+                        content.classList.remove("active");
+                        if (content.id === `${tabName}Tab`) {
+                            content.classList.add("active");
+                        }
+                    });
+                });
+            });
+
+            function setDefaultValues() {
+                pathInput.value = config.defaultPath || "";
+                requestBodyTextarea.value = config.defaultBody || "";
+                formatJson();
+                // set allowed methods in the selector
+                finalMethods = httpMethods.filter(
+                    (method) => !config.excludedMethods.includes(method)
+                );
+                finalMethods.forEach((method) => {
+                    if (!config.excludedMethods.includes(method)) {
+                        const option = document.createElement("option");
+                        option.value = method;
+                        option.textContent = method;
+                        httpMethodSelect.appendChild(option);
+                    }
+                });
+                httpMethodSelect.value = config.defaultMethod || finalMethods[0];
+                // iterate over default headers to add them
+                Object.entries(config.defaultHeaders).forEach(([key, value]) => {
+                    addHeader(key, value);
+                });
+                
+            }
+
+            // Functions
+            function extractParameters() {
+                const path = pathInput.value;
+                const extractedParams = [];
+                // Extract all parameters like {paramName} from anywhere in the path
+                const paramRegex = /\{([^}]*)\}/g;
+                let match;
+                while ((match = paramRegex.exec(path)) !== null) {
+                    const fullMatch = match[0]; // The full {paramName} match
+                    const paramName = match[1]; // Just the paramName inside the braces
+                    const startPos = match.index;
+                    const endPos = startPos + fullMatch.length;
+                    // Determine if this is in the query part or path part
+                    const type = path.substring(0, startPos).includes("?")
+                        ? "query"
+                        : "path";
+
+                    // Find existing parameter to preserve its value
+                    const existingParam = parameters.find(
+                        (p) =>
+                            p.name === paramName &&
+                            p.type === type &&
+                            Math.abs(p.startPos - startPos) < 5 // Allow some flexibility in position
+                    );
+                    extractedParams.push({
+                        name: paramName || `param${extractedParams.length + 1}`, // Default name if empty
+                        value: existingParam?.value || "",
+                        type,
+                        startPos,
+                        endPos,
+                    });
+                }
+                parameters = extractedParams;
+                renderParameters();
+            }
+
+            function renderParameters() {
+                parametersContent.innerHTML = "";
+                if (parameters.length > 0) {
+                    parametersContent.classList.remove("hidden");
+                    parameters.forEach((param, index) => {
+                        const paramRow = document.createElement("div");
+                        paramRow.className = "parameter-row";
+
+                        const label = document.createElement("div");
+                        label.className = "parameter-label";
+                        label.innerHTML = `${param.name} <span class="parameter-type">(${param.type})</span>:`;
+
+                        const input = document.createElement("input");
+                        input.className = "sm";
+                        input.type = "text";
+                        input.value = param.value;
+                        input.placeholder = `Value for ${param.name}`;
+                        input.addEventListener("input", (e) => {
+                            parameters[index].value = e.target.value;
+                        });
+
+                        const removeButton = document.createElement("button");
+                        removeButton.className = "btn-outline btn-icon";
+                        removeButton.innerHTML = `<svg class="icon" viewBox="0 0 24 24">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>`;
+                        removeButton.addEventListener("click", () =>
+                            removeParameter(index)
+                        );
+
+                        paramRow.appendChild(label);
+                        paramRow.appendChild(input);
+                        paramRow.appendChild(removeButton);
+                        parametersContent.appendChild(paramRow);
+                    });
+                } else {
+                    parametersContent.classList.add("hidden");
+                }
+            }
+
+            function removeParameter(index) {
+                const param = parameters[index];
+                // Remove the parameter from the path
+                const path = pathInput.value;
+                const before = path.substring(0, param.startPos);
+                const after = path.substring(param.endPos);
+                const newPath = before + after;
+                pathInput.value = newPath;
+                // Remove from parameters array and re-extract
+                parameters.splice(index, 1);
+                extractParameters();
+            }
+
+            function updateRequestBodyVisibility() {
+                const method = httpMethodSelect.value;
+                if (httpMethodsWithBody.includes(method)) {
+                    requestBodyContainer.classList.remove("hidden");
+                } else {
+                    requestBodyContainer.classList.add("hidden");
+                }
+            }
+
+            function formatJson() {
+                try {
+                    const json = JSON.parse(requestBodyTextarea.value);
+                    requestBodyTextarea.value = JSON.stringify(json, null, 2);
+                } catch (e) {
+                    // If not valid JSON, do nothing
+                }
+            }
+
+            function addHeader(key, value) {
+                const headerRow = document.createElement("div");
+                headerRow.className = "header-row";
+                const nameInput = document.createElement("input");
+                nameInput.className = "sm";
+                nameInput.type = "text";
+                nameInput.placeholder = "Header name";
+                if (key) {
+                    nameInput.value = key;
+                }
+                nameInput.addEventListener("input", (e) => {
+                    // Update the key in the headers array
+                    const headerName = e.target.value;
+                    const headerValue = valueInput.value;
+                    if (headerName) {
+                        headers[headerName] = headerValue;
+                    }
+                });
+                const valueInput = document.createElement("input");
+                valueInput.className = "sm";
+                valueInput.type = "text";
+                valueInput.placeholder = "Header value";
+                if (value) {
+                    valueInput.value = value;
+                }
+                valueInput.addEventListener("input", (e) => {
+                    // Update the value in the headers array
+                    const headerName = nameInput.value;
+                    const headerValue = e.target.value;
+                    if (headerName) {
+                        headers[headerName] = headerValue;
+                    }
+                });
+                const removeButton = document.createElement("button");
+                removeButton.className = "btn-outline btn-icon sm remove-header";
+                removeButton.innerHTML = `<svg class="icon" viewBox="0 0 24 24">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>`;
+                removeButton.addEventListener("click", function () {
+                    headerRow.remove();
+                });
+                headerRow.appendChild(nameInput);
+                headerRow.appendChild(valueInput);
+                headerRow.appendChild(removeButton);
+                headersContent.appendChild(headerRow);
+            }
+
+            function getHeaders() {
+                const headers = {};
+                const headerRows = headersContent.querySelectorAll(".header-row");
+                headerRows.forEach((row) => {
+                    const nameInput = row.querySelector("input:nth-child(1)");
+                    const valueInput = row.querySelector("input:nth-child(2)");
+
+                    if (nameInput.value && valueInput.value) {
+                        headers[nameInput.value] = valueInput.value;
+                    }
+                });
+                return headers;
+            }
+
+            function buildUrl() {
+                let processedPath = pathInput.value;
+                // Sort parameters by their position in reverse order
+                // This ensures we replace from end to beginning to avoid position shifts
+                const sortedParams = [...parameters].sort(
+                    (a, b) => b.startPos - a.startPos
+                );
+                for (const param of sortedParams) {
+                    const paramPlaceholder = pathInput.value.substring(param.startPos, param.endPos);
+                    const paramValue = encodeURIComponent(param.value);
+                    // Replace the exact parameter placeholder with its value
+                    processedPath = processedPath.substring(0, param.startPos) +
+                        paramValue + processedPath.substring(param.endPos);
+                }
+                return `${config.baseUrl}${processedPath}`;
+            }
+
+            function showTab(tabName) {
+                tabs.forEach((tab) => {
+                    if (tab.getAttribute("data-tab") === tabName) {
+                        tab.click();
+                    }
+                });
+            }
+
+            async function sendRequest() {
+                // Show response tab
+                showTab("response");
+                // Reset response UI
+                responseContent.classList.add("hidden");
+                responseError.classList.add("hidden");
+                emptyResponse.classList.remove("hidden");
+                // Prepare request
+                const url = buildUrl();
+                const method = httpMethodSelect.value;
+                const headers = getHeaders();
+                const requestOptions = { method, headers};
+                if (httpMethodsWithBody.includes(method)) {
+                    requestOptions.body = requestBodyTextarea.value;
+                }
+                // Send request
+                const startTime = performance.now();
+                try {
+                    sendButton.innerHTML = `<svg class="icon" fill="#FFFFFFFF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="12" r="0" fill="#FFFFFFFF">
+                            <animate begin="0;spinner_z0Or.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="0;3" fill="freeze"/>
+                            <animate begin="spinner_OLMs.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="4;12" fill="freeze"/>
+                            <animate begin="spinner_UHR2.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="12;20" fill="freeze"/>
+                            <animate id="spinner_lo66" begin="spinner_Aguh.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="3;0" fill="freeze"/>
+                            <animate id="spinner_z0Or" begin="spinner_lo66.end" attributeName="cx" dur="0.001s" values="20;4" fill="freeze"/>
+                        </circle>
+                        <circle cx="4" cy="12" r="3" fill="#FFFFFFFF">
+                            <animate begin="0;spinner_z0Or.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="4;12" fill="freeze"/>
+                            <animate begin="spinner_OLMs.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="12;20" fill="freeze"/>
+                            <animate id="spinner_JsnR" begin="spinner_UHR2.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="3;0" fill="freeze"/>
+                            <animate id="spinner_Aguh" begin="spinner_JsnR.end" attributeName="cx" dur="0.001s" values="20;4" fill="freeze"/>
+                            <animate begin="spinner_Aguh.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="0;3" fill="freeze"/>
+                        </circle>
+                        <circle cx="12" cy="12" r="3" fill="#FFFFFFFF">
+                            <animate begin="0;spinner_z0Or.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="12;20" fill="freeze"/>
+                            <animate id="spinner_hSjk" begin="spinner_OLMs.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="3;0" fill="freeze"/>
+                            <animate id="spinner_UHR2" begin="spinner_hSjk.end" attributeName="cx" dur="0.001s" values="20;4" fill="freeze"/>
+                            <animate begin="spinner_UHR2.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="0;3" fill="freeze"/>
+                            <animate begin="spinner_Aguh.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="4;12" fill="freeze"/>
+                        </circle>
+                        <circle cx="20" cy="12" r="3" fill="#FFFFFFFF">
+                            <animate id="spinner_4v5M" begin="0;spinner_z0Or.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="3;0" fill="freeze"/>
+                            <animate id="spinner_OLMs" begin="spinner_4v5M.end" attributeName="cx" dur="0.001s" values="20;4" fill="freeze"/>
+                            <animate begin="spinner_OLMs.end" attributeName="r" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="0;3" fill="freeze"/>
+                            <animate begin="spinner_UHR2.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="4;12" fill="freeze"/>
+                            <animate begin="spinner_Aguh.end" attributeName="cx" calcMode="spline" dur="0.5s" keySplines=".36,.6,.31,1" values="12;20" fill="freeze"/>
+                        </circle>
+                    </svg>`;
+                    sendButton.disabled = true;
+
+                    const response = await fetch(url, requestOptions);
+                    const responseHeadersObj = {};
+                    response.headers.forEach((value, key) => {
+                        responseHeadersObj[key] = value;
+                    });
+
+                    let responseBodyText;
+                    const contentType = response.headers.get("content-type");
+                    if (contentType && contentType.includes("application/json")) {
+                        const text = await response.text();
+                        try {
+                            const json = JSON.parse(text);
+                            responseBodyText = JSON.stringify(json, null, 2);
+                        } catch (e) {
+                            responseBodyText = text;
+                        }
+                    } else {
+                        responseBodyText = await response.text();
+                    }
+                    // Calculate time taken
+                    const endTime = performance.now();
+                    const timeTaken = Math.round(endTime - startTime);
+                    // Update UI
+                    emptyResponse.classList.add("hidden");
+                    responseContent.classList.remove("hidden");
+                    // Status
+                    statusBadge.textContent = response.status;
+                    statusBadge.className = "status-badge";
+                    if (response.status >= 200 && response.status < 300) {
+                        statusBadge.classList.add("status-success");
+                    } else if (response.status >= 400) {
+                        statusBadge.classList.add("status-error");
+                    } else {
+                        statusBadge.classList.add("status-warning");
+                    }
+                    statusText.textContent = response.statusText;
+                    responseTime.textContent = `Time: ${timeTaken}ms`;
+                    // Headers
+                    responseHeaders.innerHTML = "";
+                    Object.entries(responseHeadersObj).forEach(([key, value]) => {
+                        const headerItem = document.createElement("div");
+                        headerItem.className = "response-header-item";
+                        headerItem.innerHTML = `<span class="response-header-name">${key}:</span> ${value}`;
+                        responseHeaders.appendChild(headerItem);
+                    });
+                    // Body
+                    responseBody.textContent = responseBodyText || "(Empty response)";
+                } catch (error) {
+                    const endTime = performance.now();
+                    const timeTaken = Math.round(endTime - startTime);
+                    // Show error
+                    emptyResponse.classList.add("hidden");
+                    responseError.classList.remove("hidden");
+                    errorMessage.textContent = error.message;
+                    errorTime.textContent = `Time: ${timeTaken}ms`;
+                } finally {
+                    sendButton.innerHTML = `<svg class="icon" viewBox="0 0 24 24">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>`;
+                    sendButton.disabled = false;
+                }
+            }
+
+            // Initialize event listeners for existing header remove buttons
+            document.querySelectorAll(".remove-header").forEach((button) => {
+                button.addEventListener("click", function () {
+                    this.closest(".header-row").remove();
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
