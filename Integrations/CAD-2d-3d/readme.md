@@ -29,6 +29,10 @@
 * https://www.expivi.com/cpq-software/
 * https://www.instantdesigntool.com/solutions/2d-and-3d-product-customizer
 * https://visionthree.io/
+* https://modelviewer.dev/
+* https://modelviewer.dev/editor/
+* https://viewer.cadexchanger.com/
+* https://convert3d.org/convert/glb 
 * https://www.dimensions.com/
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
 
