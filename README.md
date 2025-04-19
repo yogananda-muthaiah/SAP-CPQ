@@ -1,5 +1,14 @@
 # 🛒 SAP CPQ
 
+About This Repository
+This repository serves as a quick reference for important links and resources related to SAP CPQ. It is intended to help users easily access relevant documentation, guides, and other useful materials.
+
+Disclaimer
+Please respect the original sources of the content linked here. Do not copy, redistribute, or modify any materials without proper authorization from the respective owners.
+
+This version is clear, professional, and concise while maintaining your original intent. Let me know if you'd like any further adjustments!
+
+
 * https://www.sap.com/products/financial-management/cpq.html
 
 ### 🛍 [SAP CPQ Help documentation](https://help.sap.com/docs/SAP_CPQ?locale=en-US)
