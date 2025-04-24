@@ -1,3 +1,5 @@
+## [SAP Variant Configuration & Pricing](https://www.sap.com/germany/products/crm/variant-configuration-and-pricing.html#features)
+
 ### Influence Portal (Customer Feature Request)
 * https://influence.sap.com/sap/ino/#/campaign/3838
 
