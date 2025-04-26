@@ -35,9 +35,11 @@
 * https://convert3d.org/convert/glb 
 * https://www.dimensions.com/
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
+* https://www.buildcores.com/
 
 ### 3D Playground
 * https://shapen.com/playground
+* https://www.buildcores.com/
 
 
 ### 2D to 3D
