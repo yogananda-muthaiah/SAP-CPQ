@@ -32,6 +32,7 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/get-to-know-display-product-availability/ba-p/13950902
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/four-clean-core-use-cases-for-sap-s-4hana-cloud-with-sap-business/ba-p/13991356
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/highlights-of-the-sap-s-4hana-cloud-public-edition-2502-release/ba-p/13980047
+* https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/event-based-revenue-recognition-provider-contract-subscription-billing-5dq/ba-p/14063957
 
 
 
