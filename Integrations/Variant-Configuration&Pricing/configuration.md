@@ -5,6 +5,7 @@
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/manage-characterstics-as-custom-fields-in-fiori-apps/ba-p/13750530
 * https://community.sap.com/t5/technology-blogs-by-members/sap-sd-variant-pricing-configuration-and-implementation/ba-p/14037564
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/influence-resource-related-billing-through-avc-advanced-variant/ba-p/13580858
+* https://community.sap.com/t5/technology-blog-posts-by-sap/multi-level-bom-explosion-using-cds-table-function/ba-p/13553694
 
 
 ### Implementing Variant Configuration in SAP S/4HANA Cloud Private Edition
