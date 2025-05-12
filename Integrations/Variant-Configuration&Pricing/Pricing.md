@@ -18,6 +18,7 @@
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/round-off-condition-values-pricing-configuration/ba-p/13258206
 * https://community.sap.com/t5/sap-for-retail-blogs/automatic-sales-price-calculation-using-pricing-worklist-in-s-4hana-retail/ba-p/14025327
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/sap-s4-hana-pricing-procedure-end-to-end-configuration/ba-p/13567156
+* https://community.sap.com/t5/application-development-and-automation-blog-posts/easy-and-efficient-way-of-uploading-pricing-conditions-in-sap-system-using/ba-p/13152419
 * https://community.sap.com/t5/technology-blogs-by-members/alternative-pricing-calculation-sap-cloud-public-edition/ba-p/14082528
 
 ### Non Implemented Extensions (Formulas & User Exist Removal from CPQ)
