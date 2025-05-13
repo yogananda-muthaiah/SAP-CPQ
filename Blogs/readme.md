@@ -1,5 +1,7 @@
 ### List of SAP CPQ Blogs (Author by Yogananda)
 
+* https://community.sap.com/t5/financial-management-blog-posts-by-sap/mapping-pricing-conditions-from-sap-cps-to-sap-cpq-and-back-to-s-4hana/ba-p/14100608
+* https://community.sap.com/t5/financial-management-blog-posts-by-sap/understanding-the-raci-matrix-for-sap-cpq-projects/ba-p/14098163
 * https://community.sap.com/t5/financial-management-blogs-by-sap/why-you-should-avoid-directly-creating-va01-sales-orders-and-embrace-sap/ba-p/14080032
 * https://community.sap.com/t5/technology-blogs-by-sap/sap-variant-configuration-knowledge-base-api-with-increased-limits-for/ba-p/14060832
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-understanding-of-sap-variant-pricing-with-stateless-vs-document/ba-p/14053128
