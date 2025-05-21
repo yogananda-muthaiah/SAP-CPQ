@@ -31,6 +31,7 @@
 * https://visionthree.io/
 * https://modelviewer.dev/
 * https://modelviewer.dev/editor/
+* https://bekuto3d.ayaka.io/
 * https://viewer.cadexchanger.com/
 * https://convert3d.org/convert/glb 
 * https://www.dimensions.com/
