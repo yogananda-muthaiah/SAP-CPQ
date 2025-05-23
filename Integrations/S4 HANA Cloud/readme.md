@@ -45,3 +45,4 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * https://community.sap.com/t5/technology-blogs-by-members/how-to-integrate-s4hana-cloud-and-on-premise-system-using-sap-cloud/ba-p/13360254
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/create-wbs-from-excel-via-enterprise-project-api-with-oauth-authentication/ba-p/1396986
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/communication-management-in-sap-s-4hana-cloud-public-edition-via-apis/ba-p/13775638
+* https://community.sap.com/t5/technology-blog-posts-by-members/automating-sales-orders-in-sap-s-4hana-public-cloud-via-api/ba-p/14079081
