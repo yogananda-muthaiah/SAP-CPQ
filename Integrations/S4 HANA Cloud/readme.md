@@ -7,6 +7,8 @@
 ### Release Navigator
 * [Release Navigator for SAP S/4HANA Cloud Public Edition](https://readiness-at-scale.enable-now.cloud.sap/pub/20230621_ras/index.html?show=book!BO_70160B08CE741383#slide!SL_F7CC175098112D99)
 
+### S4HANA Public Edition Onboarding Webcasts
+* [Ondemand Webcasts](https://support.sap.com/en/product/onboarding-resource-center/sap-customer-onboarding-webcasts/sap-s-4hana-cloud--public-edition-onboarding-webcasts.html?anchorId=section_121640768)
 
 ## SAP CPQ Quote 2.0 Integration with SAP S/4 HANA Public Cloud 
 
