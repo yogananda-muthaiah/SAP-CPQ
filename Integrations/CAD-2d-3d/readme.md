@@ -46,4 +46,7 @@
 ### 2D to 3D
 * https://dimenxioner.com/app/
 
+### OpenSource Repos
+
 * https://github.com/xiangechen/chili3d
+* https://github.com/UMassIonTrappers/PyOpticL
