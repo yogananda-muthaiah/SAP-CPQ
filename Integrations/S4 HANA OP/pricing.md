@@ -1,4 +1,6 @@
 
+* [Pricing Conditions - Help Documentation](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/7b24a64d9d0941bda1afa753263d9e39/5e49b753128eb44ce10000000a174cb4.html)
+
 |Purpose                             |Transaction Code|Description                                                      |
 |------------------------------------|----------------|-----------------------------------------------------------------|
 |Display Pricing Procedure (SD)      |V/08            |Define/Display Pricing Procedures (Sales & Distribution)         |
