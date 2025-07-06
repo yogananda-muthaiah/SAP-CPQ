@@ -1,4 +1,21 @@
 
+|Purpose                             |Transaction Code|Description                                                      |
+|------------------------------------|----------------|-----------------------------------------------------------------|
+|Display Pricing Procedure (SD)      |V/08            |Define/Display Pricing Procedures (Sales & Distribution)         |
+|Display Pricing Procedure (MM)      |OMWK            |Define/Display Calculation Schemas (Materials Management)        |
+|Display Condition Types             |V/06            |Define/Display Condition Types (SD)                              |
+|                                    |M/06            |Define/Display Condition Types (MM)                              |
+|Display Access Sequence             |V/07            |Define/Display Access Sequences (SD)                             |
+|                                    |M/07            |Define/Display Access Sequences (MM)                             |
+|Display Condition Tables            |V/03            |Define/Display Condition Tables (SD)                             |
+|                                    |M/03            |Define/Display Condition Tables (MM)                             |
+|Maintain Condition Records (SD)     |VK11, VK12, VK13|Create, Change, Display Condition Records (Price, Discount, etc.)|
+|Maintain Condition Records (MM)     |MEK1, MEK2, MEK3|Create, Change, Display Purchasing Condition Records             |
+|Display Pricing Analysis (Sales Doc)|Pricing Analysis|In sales order: Menu ‚Üí Item ‚Üí Conditions ‚Üí Analysis        |
+|Pricing Report                      |V/LD            |Pricing Report for Sales                                         |
+|Condition Maintenance (General)     |VV11, VV12, VV13|Output Condition Records                                         |
+
+
 
 #### To analyze the pricing procedure determination process in SAP S/4HANA SD, the primary transaction code is OVKK. This transaction allows you to view and configure how the system determines which pricing procedure is applied to a sales document, based on the combination of Sales Organization, Distribution Channel, Division, Customer Pricing Procedure, and Document Pricing Procedure.
 
