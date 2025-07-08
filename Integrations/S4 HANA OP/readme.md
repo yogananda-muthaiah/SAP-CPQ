@@ -20,6 +20,7 @@
   * https://community.sap.com/t5/technology-blogs-by-members/everything-about-sap-idocs-in-s-4-hana/ba-p/13976355
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/sap-s-4hana-business-partner-add-missing-section-tax-number-to-customer/ba-p/14076314
   * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/how-to-manage-third-party-and-individual-purchase-order-procurement/ba-p/14114391
+  * https://community.sap.com/t5/technology-blog-posts-by-members/sales-promotions-amp-sales-deals-configurations-and-applying-multiple-deals/ba-p/14035010
 
 
   ## Service
