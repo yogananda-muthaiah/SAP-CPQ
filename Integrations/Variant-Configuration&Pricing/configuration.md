@@ -7,6 +7,7 @@
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/influence-resource-related-billing-through-avc-advanced-variant/ba-p/13580858
 * https://community.sap.com/t5/technology-blog-posts-by-sap/multi-level-bom-explosion-using-cds-table-function/ba-p/13553694
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/ui-input-control-types-for-characteristics-in-advanced-variant/ba-p/13599545
+* https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/controlling-scheduling-and-costing-of-production-using-custom-fields-in/ba-p/14153636
 
 
 ### Implementing Variant Configuration in SAP S/4HANA Cloud Private Edition
