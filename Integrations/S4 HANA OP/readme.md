@@ -9,6 +9,7 @@
 ### Configuration (LOVC or AVC)
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/variant-configuration-simple-method-step-by-step/ba-p/13639657
 * https://community.sap.com/t5/supply-chain-management-blogs-by-members/advanced-variant-configuration-avc/ba-p/13867312
+* https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/controlling-scheduling-and-costing-of-production-using-custom-fields-in/ba-p/14153636
 
   ## Sales
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/how-to-fix-the-material-stock-company-code-xxxx-must-be-booked-out-in-last/ba-p/13963393
