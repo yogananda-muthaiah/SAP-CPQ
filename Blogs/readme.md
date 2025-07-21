@@ -1,5 +1,6 @@
 ### List of SAP CPQ Blogs (Author by Yogananda)
 
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/sap-cpq-sap-sales-cloud-version-2-seamless-mashup-integration-for-smarter/ba-p/14157852
 * https://community.sap.com/t5/financial-management-blog-posts-by-sap/mapping-pricing-conditions-from-sap-cps-to-sap-cpq-and-back-to-s-4hana/ba-p/14100608
 * https://community.sap.com/t5/financial-management-blog-posts-by-sap/understanding-the-raci-matrix-for-sap-cpq-projects/ba-p/14098163
 * https://community.sap.com/t5/financial-management-blogs-by-sap/why-you-should-avoid-directly-creating-va01-sales-orders-and-embrace-sap/ba-p/14080032
