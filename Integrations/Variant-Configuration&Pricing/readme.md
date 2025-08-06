@@ -11,6 +11,8 @@
 
 ### SDI Installation Instructions
 * https://me.sap.com/notes/2864628
+* [2738192 - SAP HANA Smart Data Integration Data Provisioning Agent sizing guide](https://me.sap.com/notes/2738192)
+* [2711932 - System Requirements for SAP Variant Configuration and Pricing](https://me.sap.com/notes/2711932)
 
 ### Onboarding Process & Watch the video in the link
 * https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing/onboarding-with-sap-btp-cockpit
