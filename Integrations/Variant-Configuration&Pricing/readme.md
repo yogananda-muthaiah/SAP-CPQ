@@ -10,6 +10,7 @@
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/pricing-service-solution-brief/ba-p/13568963
 
 ### SDI Installation Instructions
+* https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing/installation-of-dp-agent
 * https://me.sap.com/notes/2864628
 * [2738192 - SAP HANA Smart Data Integration Data Provisioning Agent sizing guide](https://me.sap.com/notes/2738192)
 * [2711932 - System Requirements for SAP Variant Configuration and Pricing](https://me.sap.com/notes/2711932)
