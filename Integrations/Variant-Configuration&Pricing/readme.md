@@ -28,6 +28,7 @@
 * https://help.sap.com/docs/variant-configuration-and-pricing/supported-standard-pricing-exits/supported-standard-pricing-exits?version=Cloud
 
 ### Features Releases  Blogs from Michael
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2511-release-of-sap-variant-configuration-and/ba-p/14228699
 * https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2508-release-of-sap-variant-configuration-and/ba-p/14136847
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/what-is-planned-for-the-2505-release-of-sap-variant-configuration-and/ba-p/14078774
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/what-is-planned-for-the-2502-release-of-sap-variant-configuration-and/ba-p/13962042
