@@ -45,6 +45,7 @@
   ## RFQ
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/request-for-quotation-process-in-sap-s-4-hana/ba-p/13529030
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/rfq-contracts-po-release-strategy-setup/ba-p/14084503
+  * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/1xf-request-for-price-creating-price-request-for-quotation-in-multiple/ba-p/14247104
 
 ## Solution Quotation
 * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/visualise-end-to-end-progress-of-solution-using-solution-quotation-fiori/ba-p/13897989
