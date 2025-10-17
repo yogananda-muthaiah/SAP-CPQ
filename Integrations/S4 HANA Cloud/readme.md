@@ -37,6 +37,7 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/event-based-revenue-recognition-provider-contract-subscription-billing-5dq/ba-p/14063957
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/upload-prices-in-sales-from-template-based-spreadsheet/ba-p/12852826
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/using-service-bundles-as-subitems-of-bundles-in-solution-orders/ba-p/14161291
+* https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/product-hierarchy-in-sales-processing-typical-use-cases/ba-p/14246753
 
 
 
