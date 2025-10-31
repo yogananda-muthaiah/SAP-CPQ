@@ -23,6 +23,7 @@
 * https://www.cadwithai.com/?
 * https://text-to-cad.zoo.dev/
 * https://sadilkhan.github.io/text2cad-project/
+* https://github.com/agg111/nova/tree/main
 
 
 ### 3D Product Configurator
