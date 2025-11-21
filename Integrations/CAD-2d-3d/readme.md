@@ -42,6 +42,7 @@
 * https://www.dimensions.com/
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
 * https://www.buildcores.com/
+* https://aidemos.meta.com/segment-anything/gallery/
 
 ### 3D Playground
 * https://shapen.com/playground
