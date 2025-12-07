@@ -5,6 +5,7 @@
 ### Below reference sites provides insights related to CAD Diagrams 
 
 * https://www.freecad.org/?lang=de
+* https://alsado.de/freecad-tutorials
 * https://www.adamcad.com/
 * https://www.solidworks.com/product/solidworks-3d-cad
 * https://www.implicitcad.org/
@@ -47,11 +48,14 @@
 
 ### 3D Playground
 * https://shapen.com/playground
+* https://threekit-gpt-demo-34cp4fcsdq-uc.a.run.app/
+* https://www.glb2png.com/#demo
 * https://www.buildcores.com/
 
 
 ### 2D to 3D
 * https://dimenxioner.com/app/
+* https://www.vectary.com/3d-design-tool/
 * https://github.com/Robertleoj/slam_dunk
 
 ### OpenSource Repos
