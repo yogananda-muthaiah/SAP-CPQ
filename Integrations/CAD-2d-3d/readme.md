@@ -40,7 +40,8 @@
 * https://modelviewer.dev/editor/
 * https://bekuto3d.ayaka.io/
 * https://viewer.cadexchanger.com/
-* https://convert3d.org/convert/glb 
+* https://convert3d.org/convert/glb
+* https://vibe3d.ai/
 * https://www.dimensions.com/
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
 * https://www.buildcores.com/
