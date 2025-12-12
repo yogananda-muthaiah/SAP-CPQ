@@ -1,5 +1,8 @@
 ### List of SAP CPQ Blogs (Author by Yogananda)
 
+* https://community.sap.com/t5/financial-management-blog-posts-by-sap/sap-cpq-make-your-beautiful-christmas-theme-in-your-tenant/ba-p/14287283
+* https://community.sap.com/t5/financial-management-blog-posts-by-sap/how-to-assign-item-category-to-material-while-syncing-to-sap-cpq-and-why-it/ba-p/14280267
+* https://community.sap.com/t5/financial-management-blog-posts-by-sap/sap-cpq-2511-scripting-for-custom-quote-actions-amp-quote-item-custom/ba-p/14253497
 * https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/sap-cpq-sap-sales-cloud-version-2-seamless-mashup-integration-for-smarter/ba-p/14157852
 * https://community.sap.com/t5/financial-management-blog-posts-by-sap/mapping-pricing-conditions-from-sap-cps-to-sap-cpq-and-back-to-s-4hana/ba-p/14100608
 * https://community.sap.com/t5/financial-management-blog-posts-by-sap/understanding-the-raci-matrix-for-sap-cpq-projects/ba-p/14098163
