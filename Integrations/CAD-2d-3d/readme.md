@@ -31,6 +31,7 @@
 * https://zacharyfmarion.github.io/openscad-studio/
 * https://sadilkhan.github.io/text2cad-project/
 * https://github.com/agg111/nova/tree/main
+* https://github.com/jeremyaboyd/jerm-cad
 
 
 ### 3D Product Configurator
