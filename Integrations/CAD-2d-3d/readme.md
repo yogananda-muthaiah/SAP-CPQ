@@ -49,7 +49,7 @@
 * https://hyper3d.ai/
 * https://studio.tripo3d.ai/home
 * https://www.womp.com/
-* https://www.womp.com/
+* https://3dviewermax.com/
 * https://www.dimensions.com/
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
 * https://www.buildcores.com/
