@@ -55,6 +55,7 @@
 * https://www.buildcores.com/
 * https://aidemos.meta.com/segment-anything/gallery/
 * https://ai.meta.com/sam3d/
+* https://www.pickawood.com/de/configurator
 
 ### 3D Playground
 * https://shapen.com/playground
