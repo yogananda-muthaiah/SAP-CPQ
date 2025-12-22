@@ -14,4 +14,5 @@
 * https://community.sap.com/t5/technology-blogs-by-members/dynamic-http-or-odata-adapter-sap-cloud-integration-ci-cpi/ba-p/13758408
 * https://community.sap.com/t5/supply-chain-management-blogs-by-sap/seamless-deployment-of-virtual-dm-edge-on-azure-kubernetes-service/ba-p/13984417
 * https://community.sap.com/t5/technology-blogs-by-members/managing-nested-csv-structures-in-sap-cloud-integration-a-generic-groovy/ba-p/13994228
+* https://community.sap.com/t5/technology-blog-posts-by-sap/sap-integration-suite-connecting-to-s-4hana-private-cloud-odata-with-oauth/ba-p/14295261
 
