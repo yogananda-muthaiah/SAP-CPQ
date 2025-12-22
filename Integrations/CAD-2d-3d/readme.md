@@ -54,6 +54,7 @@
 * https://www.lino.de/en/cpq-configure-price-quote/system-integration/
 * https://www.buildcores.com/
 * https://aidemos.meta.com/segment-anything/gallery/
+* https://ai.meta.com/sam3d/
 
 ### 3D Playground
 * https://shapen.com/playground
@@ -69,6 +70,7 @@
 * https://www.iso3d.com/
 * https://www.oneclick3d.io/
 * https://3d-agent.com/
+* https://www.meshy.ai/
 
 ### OpenSource Repos
 
