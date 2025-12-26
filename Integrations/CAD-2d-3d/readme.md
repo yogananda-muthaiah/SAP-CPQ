@@ -27,6 +27,7 @@
 * https://camfer.dev/
 * https://www.cadwithai.com/?
 * https://brep.io/
+* https://acadlisp.de/
 * https://text-to-cad.zoo.dev/
 * https://zacharyfmarion.github.io/openscad-studio/
 * https://sadilkhan.github.io/text2cad-project/
