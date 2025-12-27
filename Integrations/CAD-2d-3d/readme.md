@@ -64,6 +64,9 @@
 * https://www.glb2png.com/#demo
 * https://www.buildcores.com/
 * https://www.planyourroom.com/
+* https://planner5d.com/
+* https://www.dimensions.com/?r=0
+* https://raumplaner.io/en
 
 
 ### 2D to 3D
