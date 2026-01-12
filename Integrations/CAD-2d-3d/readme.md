@@ -35,6 +35,7 @@
 * https://sadilkhan.github.io/text2cad-project/
 * https://github.com/agg111/nova/tree/main
 * https://github.com/jeremyaboyd/jerm-cad
+* https://dwg.fastcadreader.com/
 
 
 ### 3D Product Configurator
