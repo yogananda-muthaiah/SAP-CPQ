@@ -36,6 +36,8 @@
 * https://github.com/agg111/nova/tree/main
 * https://github.com/jeremyaboyd/jerm-cad
 * https://dwg.fastcadreader.com/
+* https://www.palmettocad.com/
+* https://sendcutsend.com/education/
 
 
 ### 3D Product Configurator
