@@ -37,6 +37,7 @@
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/credit-check-behaviour-for-unplanned-items-in-service-processes/ba-p/13977268
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/billing-relevance-g-in-execution-order-items-in-service-with-advanced/ba-p/13981688
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/service-with-advanced-execution-process-flow-5-late-billing-decision-in/ba-p/13980825
+  * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/billing-plan-template-in-service-order-process/ba-p/14307867
 
   ## Subscription
 
@@ -55,6 +56,7 @@
   * https://community.sap.com/t5/enterprise-resource-planning-blogs-by-members/condition-contract-management-sales-commission-for-external-sales-agent/ba-p/13545090
   * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/use-of-settlement-material-in-sap-s-4hana-condition-contract/ba-p/14179240
   * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-members/condition-contract-process-customer-rebate-payment-to-an-alternate-customer/ba-p/14298022
+  * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/s-4hana-q2c-sales-flexibility-default-validity-date-on-sales-contracts-via/ba-p/14306996
 
 ### AIF
 * https://community.sap.com/t5/technology-blogs-by-members/error-handling-and-reprocessing-of-odata-through-application-interface/ba-p/13984711
