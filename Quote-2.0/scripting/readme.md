@@ -1,5 +1,6 @@
 
 * https://community.sap.com/t5/financial-management-blogs-by-sap/sap-cpq-ironpython-clean-code-tips/ba-p/13495606
+* https://help.sap.com/doc/5575a896ac9c49a7953328a19494bee6/2506/en-US/Help/html/1108d588-79c8-10e8-eb99-6e9d196af277.htm
 
 ### Available Scripting Battery
 
