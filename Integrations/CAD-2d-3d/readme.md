@@ -38,6 +38,7 @@
 * https://dwg.fastcadreader.com/
 * https://www.palmettocad.com/
 * https://sendcutsend.com/education/
+* https://www.colabsoftware.com/product/ai-cad-review
 
 
 ### 3D Product Configurator
