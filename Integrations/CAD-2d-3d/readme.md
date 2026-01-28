@@ -84,6 +84,7 @@
 * https://www.oneclick3d.io/
 * https://3d-agent.com/
 * https://www.meshy.ai/
+* https://modelfy.art/
 
 ### OpenSource Repos
 
