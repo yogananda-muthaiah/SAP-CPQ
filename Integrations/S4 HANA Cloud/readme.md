@@ -39,6 +39,7 @@ https://go.support.sap.com/roadmapviewer/#/group/658F507A-D6F5-4B78-9EE1-0300C5F
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/using-service-bundles-as-subitems-of-bundles-in-solution-orders/ba-p/14161291
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/product-hierarchy-in-sales-processing-typical-use-cases/ba-p/14246753
 * https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/tax-included-sales-pricing-in-sap-s4hana-cloud-public-edition/ba-p/14282607
+* https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/product-hierarchies-and-customer-hierarchies-for-solution-order-management/ba-p/14309419
 
 
 
