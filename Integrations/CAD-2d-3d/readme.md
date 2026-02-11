@@ -39,6 +39,7 @@
 * https://www.palmettocad.com/
 * https://sendcutsend.com/education/
 * https://github.com/andrewmccalip/Scribe
+* https://scribe-494079664981.us-west1.run.app/
 * https://www.colabsoftware.com/product/ai-cad-review
 
 
@@ -64,6 +65,7 @@
 * https://aidemos.meta.com/segment-anything/gallery/
 * https://ai.meta.com/sam3d/
 * https://www.pickawood.com/de/configurator
+* 
 
 ### 3D Playground
 * https://shapen.com/playground
