@@ -77,6 +77,7 @@
 * https://www.dimensions.com/?r=0
 * https://raumplaner.io/en
 * https://www.llm3d.space/
+* https://www.knowimg.com/
 
 
 ### 2D to 3D
