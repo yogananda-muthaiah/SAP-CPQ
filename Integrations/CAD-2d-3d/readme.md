@@ -23,6 +23,7 @@
 * https://replicad.xyz/docs/examples/simple-vase
 * https://www.drawnav.com/demo
 * https://www.adamcad.com/
+* https://fluidcad.io/
 * https://foundry.siameseai.com/
 * https://adam.new/cadam
 * https://renderdraw.com/products/renderdraw-cad-tools
