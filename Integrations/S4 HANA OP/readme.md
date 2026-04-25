@@ -68,3 +68,7 @@
 
 ### TC Tables Data Dictionary
 * https://www.sapdatasheet.org/abap/tabl/komk-fbuda.html
+
+
+### APIs for updating Pricing
+* https://api.sap.com/api/OP_API_SLSPRCGCONDITIONRECORD_SRV_0001/resource/Pricing_Scales
