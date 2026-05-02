@@ -26,6 +26,7 @@
 * https://fluidcad.io/
 * https://foundry.siameseai.com/
 * https://adam.new/cadam
+* https://fusion.adam.new/install
 * https://renderdraw.com/products/renderdraw-cad-tools
 * https://camfer.dev/
 * https://www.cadwithai.com/?
