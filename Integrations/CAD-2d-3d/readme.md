@@ -33,6 +33,7 @@
 * https://brep.io/
 * https://acadlisp.de/
 * https://text-to-cad.zoo.dev/
+* https://evals-for-ai-cads.vercel.app/
 * https://www.cosmon.com/
 * https://www.texocad.ai/
 * https://forgecad.io
