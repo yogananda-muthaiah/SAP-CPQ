@@ -37,6 +37,7 @@
 * https://www.cosmon.com/
 * https://www.texocad.ai/
 * https://forgecad.io
+* https://step.parts
 * https://zacharyfmarion.github.io/openscad-studio/
 * https://sadilkhan.github.io/text2cad-project/
 * https://github.com/agg111/nova/tree/main
