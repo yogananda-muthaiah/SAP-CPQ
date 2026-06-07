@@ -14,6 +14,7 @@
 * https://openscad.org/index.html
 * https://www.cadsketcher.com/
 * https://www.onshape.com/en/
+* https://gencad.github.io/
 * https://www.qcad.org/en/
 * https://strato.so/
 * https://www.hestus.co/
