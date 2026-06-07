@@ -7,6 +7,8 @@
 * https://www.freecad.org/?lang=de
 * https://alsado.de/freecad-tutorials
 * https://www.adamcad.com/
+* https://cadxstudio.in
+* https://trial.dimension.company/
 * https://www.solidworks.com/product/solidworks-3d-cad
 * https://www.implicitcad.org/
 * https://openscad.org/index.html
