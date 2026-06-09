@@ -16,6 +16,9 @@
 * https://www.onshape.com/en/
 * https://gencad.github.io/
 * https://www.qcad.org/en/
+* https://www.cadskills.xyz/
+* https://www.brepjs.dev/playground
+* https://agentcad.dev/
 * https://strato.so/
 * https://www.hestus.co/
 * https://solvespace.com/index.pl
