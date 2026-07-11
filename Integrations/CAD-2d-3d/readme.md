@@ -43,6 +43,7 @@
 * https://www.cosmon.com/
 * https://www.texocad.ai/
 * https://forgecad.io
+* https://magik.net/freecad/
 * https://step.parts
 * https://zacharyfmarion.github.io/openscad-studio/
 * https://sadilkhan.github.io/text2cad-project/
@@ -87,6 +88,7 @@
 * https://www.buildcores.com/
 * https://www.planyourroom.com/
 * https://planner5d.com/
+* https://sinter-3d.com/
 * https://www.dimensions.com/?r=0
 * https://raumplaner.io/en
 * https://www.llm3d.space/
