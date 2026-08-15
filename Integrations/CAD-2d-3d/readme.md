@@ -20,6 +20,8 @@
 * https://www.brepjs.dev/playground
 * https://agentcad.dev/
 * https://strato.so/
+* https://luacad.ad-si.com
+* https://svgcad.com
 * https://www.hestus.co/
 * https://solvespace.com/index.pl
 * https://zoo.dev/text-to-cad
