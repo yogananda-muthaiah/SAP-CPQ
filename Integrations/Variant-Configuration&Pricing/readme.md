@@ -28,6 +28,10 @@
 * https://help.sap.com/docs/variant-configuration-and-pricing/supported-standard-pricing-exits/supported-standard-pricing-exits?version=Cloud
 
 ### Features Releases  Blogs from Michael
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2611-release-of-sap-variant-configuration-and/ba-p/14493543
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2608-release-of-sap-variant-configuration-and/ba-p/14431504
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2605-release-of-sap-variant-configuration-and/ba-p/14362346
+* https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2602-release-of-sap-variant-configuration-and/ba-p/14291460
 * https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2511-release-of-sap-variant-configuration-and/ba-p/14228699
 * https://community.sap.com/t5/crm-and-cx-blog-posts-by-sap/what-is-planned-for-the-2508-release-of-sap-variant-configuration-and/ba-p/14136847
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/what-is-planned-for-the-2505-release-of-sap-variant-configuration-and/ba-p/14078774
@@ -46,6 +50,7 @@
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/implementation-of-local-extensions-for-sap-variant-configuration-and/ba-p/13703401
 * https://community.sap.com/t5/crm-and-cx-blogs-by-sap/sap-variant-configuration-and-pricing-extension-concept/ba-p/13569122
 + https://help.sap.com/docs/variant-configuration-and-pricing/extension-guide-for-sap-variant-configuration-and-pricing/extension-api-of-sap-variant-configuration-and-pricing
++ https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/new-where-used-functionality-in-pmevc-for-objects-in-knowledge-base-runtime/ba-p/14294129
 
 ### Best Practices
 * https://help.sap.com/docs/variant-configuration-and-pricing/best-practices-to-generate-knowledge-base-runtime-versions/quick-reference-knowledge-base-runtime-version-generation-kbgen
