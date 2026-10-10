@@ -15,6 +15,8 @@
 * https://www.cadsketcher.com/
 * https://www.onshape.com/en/
 * https://gencad.github.io/
+* https://openplan.am/
+* https://v2.brep.io/#builds
 * https://www.qcad.org/en/
 * https://www.cadskills.xyz/
 * https://www.brepjs.dev/playground
